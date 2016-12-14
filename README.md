@@ -70,5 +70,3 @@ npm run watch
 	├/css : CSS to tie in all sass code
 	├/images : Images used in site
 	├/js : App and Bootstrap js code
-
-
