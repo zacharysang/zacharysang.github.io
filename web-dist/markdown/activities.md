@@ -35,7 +35,7 @@ highly rewarding experience for numerous reasons, I have been able to work with 
 
 ## Cincinnati Observatory Assistant (September 2015 - September 2016)
 
-<img class="no-mobile" src="web-dist/images/Observatory_pic.jpg" align="center" width="500"/>
+<img class="no-mobile" src="web-dist/images/Observatory_pic.jpg" align="right" width="500"/>
 
 
 The Cincinnati Observatory Center is a historical landmark that holds historical significance not only for the City of Cincinnati, but also for various 

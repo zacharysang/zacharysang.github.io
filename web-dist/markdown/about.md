@@ -5,7 +5,7 @@ title: About Me
 
 # About Me
 
-<img class="no-mobile" src="web-dist/images/Hackathon_Pic.jpg" align="center" width="500"/>
+<img class="no-mobile" src="web-dist/images/Hackathon_Pic.jpg" style="margin:25px" align="right" width="500"/>
 
 ## Who I am
 Hello! My name is Zachary Sang (in the blue shirt) and I'm a Computer Science Major at the 
