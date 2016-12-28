@@ -7,7 +7,7 @@ title: Experience
 
 ## Siemens PLM Software (Java Developer, August 2015 - August 2016)
 
-<img class="no-mobile med-img" src="web-dist/images/Siemens_picnic_pic.jpg" align="right"/>
+<img class="no-mobile med" src="web-dist/images/Siemens_picnic_pic.jpg" align="right"/>
 
 
 My first and second co-op terms took place in the Fall of 2015 and the Summer of 2016. 
