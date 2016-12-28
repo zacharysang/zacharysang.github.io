@@ -13,7 +13,7 @@
 # in the templates available like {{ site.myvariable }}.
 title: About Zachary Sang
 email: zacharysang@gmail.com
-headline: Inventor, Engineer and Futurist
+headline: Zachary Sang
 description: > # this means to ignore newlines until "baseurl:"
   New Site
 baseurl: "" # the subpath of your site, e.g. /blog
