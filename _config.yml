@@ -14,7 +14,6 @@
 title: About Zachary Sang
 headline: > #ignore
 description: > # this means to ignore newlines until "baseurl:"
-  New Site
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zacharysang.me" # the base hostname & protocol for your site
 
