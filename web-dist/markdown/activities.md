@@ -7,8 +7,8 @@ title: Experience
 
 ## Revolution UC (July 2016 - Present)
 
-<img class="no-mobile" src="web-dist/images/RevUC_pic_1.jpg" align="center" width="500"/>
-<img class="no-mobile" src="web-dist/images/RevUC_pic_2.jpg" align="center" width="500"/>
+<img class="no-mobile med-img" src="web-dist/images/RevUC_pic_1.jpg" align="center"/>
+<img class="no-mobile med-img" src="web-dist/images/RevUC_pic_2.jpg" align="center"/>
 
 
 
@@ -35,7 +35,7 @@ highly rewarding experience for numerous reasons, I have been able to work with 
 
 ## Cincinnati Observatory Assistant (September 2015 - September 2016)
 
-<img class="no-mobile" src="web-dist/images/Observatory_pic.jpg" align="right" width="500"/>
+<img class="no-mobile med-img" src="web-dist/images/Observatory_pic.jpg" align="right"/>
 
 
 The Cincinnati Observatory Center is a historical landmark that holds historical significance not only for the City of Cincinnati, but also for various 
