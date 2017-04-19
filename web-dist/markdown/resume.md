@@ -7,5 +7,6 @@ title: Resume
 <div width="100%">
 	<img class="no-mobile" src="web-dist/images/Zachary_F_Sang_Resume.png" width="750" style="display: block;
     margin-left: auto;
-    margin-right: auto;"/>
+    margin-right: auto;
+    max-width: 100%;"/>
 </div>
