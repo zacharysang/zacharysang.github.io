@@ -1,0 +1,44 @@
+html {
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif; 
+  font-size: 1rem;
+  cursor: default;
+  height: 100vh;
+}
+
+html * {
+  max-width: 100vw !important;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+
+a {
+  text-decoration: none;
+  color:inherit;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 50rem 1fr;
+}
+
+.content {
+  grid-column-start: 2;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+
+.section {
+  display: block;
+  width: 100%;
+}
+
+
+
