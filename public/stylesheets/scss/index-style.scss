@@ -1,8 +1,12 @@
+$base-color: #F36F03;
+
 html {
   font-family: "Lucida Grande", Helvetica, Arial, sans-serif; 
   font-size: 1rem;
   cursor: default;
   height: 100vh;
+
+  overflow-x: hidden;
 }
 
 html * {
@@ -22,8 +26,8 @@ a {
 }
 
 .banner {
-  height: 10rem;
-  background-color: green;
+  height:100%;
+  overflow: hidden;
 }
 
 .header {
@@ -36,14 +40,16 @@ a {
   top:0;
   width:100%;
   padding: 1rem;
-  background-color: green;
+  background-color: $base-color;
   color: white;
   font-size: 1.5rem;
+
+  z-index: 100;
 }
 
 .headerLink {
-  padding: 1rem;
-  border: 2px solid green;
+  padding: 0.7rem 1.5rem;
+  border: 2px solid $base-color;
   
 }
 
@@ -62,7 +68,9 @@ a {
   display: flex;
   flex-wrap: wrap;
   padding: 2.5rem;
-  background-color:yellow;
+  //background-color:yellow;
+  box-shadow: 5px 5px 2px #888888;
+  border: 1px solid #888888;
 }
 
 .section {
@@ -70,5 +78,14 @@ a {
   width: 100%;
 }
 
+.mast.image {
+  position: relative;
+}
 
-
+.profile.image {
+  position: absolute;
+  left: calc(50% - 5rem);
+  top: calc(50% - 5rem);
+  width: 12rem;
+  border-radius: 50%;
+}
