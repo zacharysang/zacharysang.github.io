@@ -1,21 +1,24 @@
 extends layout
 
 block content
+  div.banner#Top
   div.header
-  div.container
+    a.headerLink(href="#Top") Top
+    a.headerLink(href="#Resume") Resume
+  div.gridContainer
     div.content
       div.section#About
         h1 Who I am
-        p ncjnk
-      div.section#Skills
+        p 
+        div.section#Skills
         h1 Things I'm Good At
-        p no
+        p
       div.section#Experience
         h1 Experience
-        p of 2016. For these semesters, I worked as a developer for Siemens PLM on their AKS team. AKS is a large-scale web application that is used to document and manage business and manufacturing processes. During my first semester, I worked heavily on building a utility that would automate the QA team’s testing of this web application. Our team used the Selenium web-driver alongside Cucumber with Java to allow the non-technical QA team to write automated tests in a near-English language. These tests would then be able to be executed by the web-driver and results would be recorded for later reference. As a part of this project, I learned a lot about web-drivers and also about Cucumber and how it uses regex to capture phrases and map them to Java code. Additionally, through this experience I was able to greatly expand my familiarity with HTML and CSS.
-      div.section#Resume
+        p 
+        div.section#Resume
         h1 Resume
-        p
+        img(src="/images/Zachary_F_Sang_Resume.png", width="100%")
   div.footer
 
   block append head
