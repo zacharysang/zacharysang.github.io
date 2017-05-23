@@ -1,30 +1,5 @@
 $base-color: #F36F03;
 
-html {
-  font-family: "Lucida Grande", Helvetica, Arial, sans-serif; 
-  font-size: 1rem;
-  cursor: default;
-  height: 100vh;
-
-  overflow-x: hidden;
-}
-
-html * {
-  max-width: 100vw !important;
-}
-
-body {
-  margin: 0;
-  height: 100%;
-}
-
-
-a {
-  text-decoration: none; //removes hyperlink underline
-  color:inherit; //makes hyperlink color to the same color as the rest of the text
-  display: inline-block;
-}
-
 .banner {
   height:100%;
   overflow: hidden;
@@ -67,15 +42,12 @@ a {
   grid-column-start: 2;
   display: flex;
   flex-wrap: wrap;
-  padding: 2.5rem;
-  //background-color:yellow;
-  box-shadow: 5px 5px 2px #888888;
-  border: 1px solid #888888;
 }
 
 .section {
   display: block;
   width: 100%;
+  margin: 1rem 2rem;;
 }
 
 .mast.image {
@@ -88,4 +60,13 @@ a {
   top: calc(50% - 5rem);
   width: 12rem;
   border-radius: 50%;
+}
+
+.resume.link {
+  display: block;
+  width: 100%;
+}
+
+.resume.image {
+  width: 100%;
 }

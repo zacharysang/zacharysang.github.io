@@ -1,0 +1,26 @@
+*, *:before, *:after {
+  max-width: 100vw !important;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif; 
+  font-size: 1rem;
+  cursor: default;
+  height: 100vh;
+
+  overflow-x: hidden;
+}
+
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+
+a {
+  text-decoration: none; //removes hyperlink underline
+  color:inherit; //makes hyperlink color to the same color as the rest of the text
+  display: inline-block;
+}

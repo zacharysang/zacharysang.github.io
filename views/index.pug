@@ -7,20 +7,23 @@ block content
   div.banner
     img(src="/images/road.jpeg", width="100%").mast.image
     img(src="/images/profile-image.jpg").profile.image
+    div.first.name Zachary
+    div.last.name Sang
   div.gridContainer
     div.content
       div.section#About
         h1 Who I am
         p 
-        div.section#Skills
+      div.section#Skills
         h1 Things I'm Good At
         p
       div.section#Experience
         h1 Experience
         p 
-        div.section#Resume
+      div.section#Resume
         h1 Resume
-        img(src="/images/Zachary_F_Sang_Resume.png", width="100%")
+        a(href="/images/Zachary_F_Sang_Resume.png").resume.link
+          img(src="/images/Zachary_F_Sang_Resume.png").resume.image
   div.footer
 
   block append head
