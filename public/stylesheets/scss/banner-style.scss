@@ -1,0 +1,45 @@
+.mast.contents {
+  background-image: url("/images/road.jpeg");
+  background-size: cover;
+  height: 30rem;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.profile.image {
+  display:block;
+  left: calc(50% - 7rem);
+  top: calc(50% - 7rem);
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+
+  order:1;
+}
+
+.name {
+  display: inline-block;
+  top:50%;
+  width: 10rem;
+  height: 3rem;
+
+  background-color:white;
+  padding: 1rem 2rem;
+
+  font-family: "Times New Roman";
+  font-size: 2rem;
+}
+
+.first.name {
+  left: 20%;
+
+  order:2;
+}
+
+.last.name {
+  right: 25%;
+
+  order:3;
+}

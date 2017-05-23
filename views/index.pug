@@ -1,14 +1,14 @@
 extends layout
 
 block content
-  div.header
-    a.headerLink(href="#Top") Top
-    a.headerLink(href="#Resume") Resume
+  div.navbar
+    a.navLink(href="#Top") Top
+    a.navLink(href="#Resume") Resume
   div.banner
-    img(src="/images/road.jpeg", width="100%").mast.image
-    img(src="/images/profile-image.jpg").profile.image
-    div.first.name Zachary
-    div.last.name Sang
+    div.mast.contents
+      img(src="/images/profile-image.jpg").profile.image
+      div.first.name Zachary
+      div.last.name Sang
   div.gridContainer
     div.content
       div.section#About
