@@ -6,9 +6,20 @@ block content
     a.navLink(href="#Resume") Resume
   div.banner
     div.mast.contents
-      img(src="/images/profile-image.jpg").profile.image
-      div.first.name Zachary
-      div.last.name Sang
+      svg.name.image(viewBox="0 0 100 100")
+        defs
+          path(id="nameCircle", d="M30,50 a20,20 0 1,0 40,0a20,20 15 1,0 -40,0")
+          clipPath(id="picCircle")
+            circle(cx="50", cy="50", r="14")
+        symbol(id="clippedPic", viewBox="0 0 100 100")
+          image(xlink:href="/images/profile-image.jpg", x="35", y="36", width="30", height="30", clip-path="url(#picCircle)")
+        symbol(id="picText", viewBox="0 0 100 100")
+        use(xlink:href="#clippedPic", x="0", y="0")
+        g(y="30")
+          use(xlink:href="#nameCircle" fill="none", stroke="white", stroke-width="0.5rem", stroke-opacity="0.5")
+          text(fill="black",font-size="0.3rem", background="white")
+            textPath(xlink:href="#nameCircle") Zachary Sang
+       
   div.gridContainer
     div.content
       div.section#About
@@ -24,6 +35,3 @@ block content
         h1 Resume
         a(href="/images/Zachary_F_Sang_Resume.png").resume.link
           img(src="/images/Zachary_F_Sang_Resume.png").resume.image
-  div.footer
-
-  block append head

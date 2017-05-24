@@ -5,13 +5,15 @@ $base-color: #F36F03;
 
 .gridContainer {
   display: grid;
-  grid-template-columns: 1fr 50rem 1fr;
+  grid-template-columns: 1fr 2rem 50rem 2rem 1fr;
 }
 
 .content {
-  grid-column-start: 2;
-  display: flex;
-  flex-wrap: wrap;
+  grid-column-start: 3;
+  
+
+
+  background-color: yellow;
 }
 
 .section {
@@ -27,4 +29,15 @@ $base-color: #F36F03;
 
 .resume.image {
   width: 100%;
+}
+
+h1 {
+  display: block;
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+
+  margin-top: 25rem;
+
+
+  
 }
