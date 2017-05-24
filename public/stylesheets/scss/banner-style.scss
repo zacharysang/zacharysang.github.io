@@ -2,13 +2,12 @@
   background-image: url("/images/road.jpeg");
   background-size: cover;
   height: 50rem;
+  text-align:center;
 }
 
 svg.name {
-    display: block;
+    display: inline-block;
     position:relative;
-    top: calc(50% - 30rem);
-    left: calc(50% - 30rem);
 
     width: 60rem;
     height: 60rem;
