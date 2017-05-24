@@ -1,14 +1,36 @@
-.mast.contents {
-  background-image: url("/images/road.jpeg");
-  background-size: cover;
+.banner {
   height: 50rem;
-  text-align:center;
+  //text-align: center;
 }
 
-svg.name {
+.banner.image {
+    position: absolute;
+    display: block;
+    width: 150rem;
+}
+
+.banner svg {
     display: inline-block;
     position:relative;
 
     width: 60rem;
     height: 60rem;
+}
+
+.name.text {
+    animation-name: cycleText;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cycleText {
+
+    0% {
+        startOffset: 0;
+    }
+
+    100% {
+        startOffset: 100;
+    }
+
 }
