@@ -1,6 +1,9 @@
 .banner {
   height: 50rem;
-  //text-align: center;
+  
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .banner.image {
@@ -9,18 +12,23 @@
     width: 150rem;
 }
 
+.banner .inspiration {
+
+    padding-top: 15rem;
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+
+    color:white;
+    font-size: 4rem;
+    font-family: "Cookie";
+}
+
 .banner svg {
-    display: inline-block;
     position:relative;
 
     width: 60rem;
     height: 60rem;
-}
-
-.name.text {
-    animation-name: cycleText;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes cycleText {

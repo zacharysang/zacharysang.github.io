@@ -3,6 +3,9 @@ extends layout
 block content
   div.navbar
     a.navLink(href="#Top") Top
+    a.navLink(href="#About") About Me
+    a.navLink(href="#Skills") Skills
+    a.navLink(href="#Experience") Experience
     a.navLink(href="#Resume") Resume
   div.banner
     img(src="/images/road.jpeg", x="0", y="0").banner.image
@@ -18,7 +21,8 @@ block content
       g(y="30")
         use(xlink:href="#nameCircle" fill="none", stroke="white", stroke-width="0.5rem", stroke-opacity="0.5")
         text(fill="black",font-size="0.3rem", background="white")
-          textPath(xlink:href="#nameCircle", startOffset="16rem") Zachary Sang
+          textPath(xlink:href="#nameCircle", startOffset="13%") Zachary Sang
+    div.inspiration "Life is like a box of chocolates. You get more or less what you paid for" - Me
   div.gridContainer
     div.content
       div.section#About

@@ -17,8 +17,11 @@ $base-color: #F36F03;
 }
 
 .section {
+  font-size: 1rem;
   display: block;
   width: 100%;
+
+  overflow:hidden;
 }
 
 .resume.link {
@@ -36,6 +39,8 @@ h1 {
   transform-origin: left top 0;
 
   margin-top: 25rem;
+  border-bottom: 1px solid black;
+  z-index: -1;
 
 
   
