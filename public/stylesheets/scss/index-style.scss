@@ -10,38 +10,42 @@ $base-color: #F36F03;
 
 .content {
   grid-column-start: 2;
-  
-
-
-  background-color: yellow;
+  padding-top: 5rem;
 }
 
 .section {
   font-size: 1rem;
-  display: block;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   width: 100%;
 
   overflow:hidden;
 }
 
 .resume.link {
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: 80%;
 }
 
 .resume.image {
-  width: 100%;
+  width: 80%;
+  display: block;
+  float: right;
 }
 
-h1 {
-  display: block;
+.section h1 {
+  display: inline-block;
   transform: rotate(-90deg);
   transform-origin: left top 0;
 
   margin-top: 25rem;
   border-bottom: 1px solid black;
-  z-index: -1;
+}
 
-
-  
+.section .text {
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 35rem;
 }
