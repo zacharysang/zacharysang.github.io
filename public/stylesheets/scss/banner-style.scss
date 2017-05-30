@@ -4,6 +4,7 @@
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
 
   overflow:hidden;
 }
@@ -14,38 +15,34 @@
     width: 150rem;
 }
 
-.banner .inspiration {
-
-    padding-top: 18rem;
+.bannerItem {
+    display: inline-block;
     position: relative;
+}
+
+.inspiration {
     width: 30rem;
     height: 30rem;
-    text-align: center;
-    left: 15rem;
 
     color:white;
     font-size: 5rem;
     font-family: "Share Tech Mono";
 }
 
-.banner svg {
-    position:relative;
-
+svg {
     width: 30rem;
     height: 30rem;
-
-    left: 15rem;
-    top: 15rem;
 }
+
 
 @keyframes cycleText {
 
     0% {
-        startOffset: 0%;
+        opacity: 1;
     }
 
     100% {
-        startOffset: 100%;
+        opacity: 0;
     }
 
 }
