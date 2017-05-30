@@ -11,6 +11,7 @@ block content
     a.navLink(href="#About") About Me
     a.navLink(href="#Skills") Skills
     a.navLink(href="#Experience") Experience
+    a.navLink(href="#Activities") Activities
     a.navLink(href="#Resume") Resume
   div.banner
     img(src="/images/road.jpeg", x="0", y="0").banner.image
@@ -33,9 +34,9 @@ block content
           span(class="computerist") computerist!
   div.gridContainer
     div.contents
-      div.sectionContainer
+      div.sectionContainer#About
         h1 Who I am
-        div.section#About
+        div.section
           p
             a(href="/images/Hackathon_Pic.jpg")
               img(src="/images/Hackathon_Pic.jpg")
@@ -48,22 +49,37 @@ block content
             | to solve issues and inefficiencies. Because of all this, I’m very glad that 
             | I was able to find myself as a CS major because it allows me to create while 
             | continuously learning about technology and solving exciting and fascinating problems.
-      div.sectionContainer
+      div.sectionContainer#Skills
         h1 Things I'm Good At
-        div.section#Skills
+        div.section
           div.skillsbox
-            +skill("C++","red")
-            +skill("Html","blue")
             +skill("Java","pink")
-            +skill("Python", "green")
             +skill("Javascript","yellow")
+            +skill("Python", "green")
+            +skill("Html","blue")
+            +skill("C++","red")
             +skill("Git","grey")
-      div.sectionContainer
-        h1 Experience
-        div.section#Experience
-          p I have some experiences!
-      div.sectionContainer
+      div.sectionContainer#Experience
+        h1 My Experience
+        div.section
+          h2#UsBank US Bank
+            span.duration  (Spring 2017)
+          h2#Siemens Siemens
+            span.duration  (Fall 2015, Summer 2016)
+          h2#TrustLab TrustLab
+            span.duration  (Spring 2016)
+          h2#Velocity Velocity Business Solutions
+            span.duration  (Summer 2015)
+      div.sectionContainer#Activities
+        h1 Things I do
+        div.section
+          h2#RevolutionUC RevolutionUC
+            span.duration  (Fall 2016, Spring 2017)
+          h2#BearcatBuddies
+            span.duration  (Spring 2016, Fall 2016)
+
+      div.sectionContainer#Resume
         h1 Resume
-        div.section#Resume
+        div.section
           a(href="/images/Zachary_F_Sang_Resume.png").resume.link
             img(src="/images/Zachary_F_Sang_Resume.png").resume.image

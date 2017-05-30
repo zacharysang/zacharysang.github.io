@@ -27,8 +27,22 @@ $base-color: #F36F03;
 .section img {
   display: block;
   width: 30rem;
-  float:right;
+  float:left;
+  margin: 0 5rem;
 }
+
+.section a {
+  display: block;
+}
+
+.section p {
+  
+}
+
+::selection {
+  background-color: red;
+}
+
 
 @media screen and (orientation:landscape){
 .sectionContainer h1 {
@@ -38,12 +52,12 @@ $base-color: #F36F03;
 
 }
 
-.sectionContainer:not(hover) h1 {
+.sectionContainer:not(hover) h1, .sectionContainer:not(target) h1{
   transform: rotate(-90deg) translate(0,-100vw);
   transition: 0.2s;
 }
 
-.sectionContainer:hover h1 {
+.sectionContainer:hover h1{
   transform: rotate(-90deg) translate(0,0);
   transition: 0.2s;
 }
@@ -52,6 +66,8 @@ $base-color: #F36F03;
 
 .resume.image {
   width:100%;
+  display: inline-block;
+  float: none;
 }
 
 .skillsbox {
