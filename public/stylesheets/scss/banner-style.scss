@@ -12,21 +12,25 @@
 .banner.image {
     position: absolute;
     display: block;
-    width: 150rem;
+    width: 100vw;
 }
 
 .bannerItem {
     display: inline-block;
     position: relative;
+
+    color:black;
+    font-size: 1rem;
 }
 
 .inspiration {
     width: 30rem;
     height: 30rem;
+}
 
-    color:white;
-    font-size: 5rem;
+.computerist {
     font-family: "Share Tech Mono";
+    font-size: 1.2rem;
 }
 
 svg {
