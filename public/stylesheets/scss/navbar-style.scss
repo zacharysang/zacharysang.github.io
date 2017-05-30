@@ -26,3 +26,8 @@
   border: 2px solid white;
   transition:0.2s;
 }
+
+.navLink:not(hover) {
+  border: 2px solid $base-color;
+  transition: 0.15s;
+}
