@@ -32,17 +32,22 @@ $base-color: #F36F03;
 
 @media screen and (orientation:landscape){
 .sectionContainer h1 {
-  display: none;
   position:fixed;
   bottom:50vh;
   left: 10vw;
 
-  transform: rotate(-90deg);
+}
+
+.sectionContainer:not(hover) h1 {
+  transform: rotate(-90deg) translate(0,-100vw);
+  transition: 0.2s;
 }
 
 .sectionContainer:hover h1 {
-  display:block;
+  transform: rotate(-90deg) translate(0,0);
+  transition: 0.2s;
 }
+
 }
 
 .resume.image {
