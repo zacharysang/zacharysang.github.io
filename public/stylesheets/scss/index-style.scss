@@ -5,47 +5,59 @@ $base-color: #F36F03;
 
 .gridContainer {
   display: grid;
-  grid-template-columns: 1fr 50rem 1fr;
+  grid-template-columns: 1fr 80rem 1fr;
 }
 
-.content {
+.contents {
   grid-column-start: 2;
   padding-top: 5rem;
 }
 
-.section {
-  font-size: 1rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 100%;
-
-  overflow:hidden;
+.sectionContainer {
+  padding: 5rem 0;
+  border-bottom: 2px solid black;
 }
 
-.resume.link {
-  display: inline-block;
-  width: 80%;
+.section {
+  font-size: 1.3rem;
+  padding: 0 5rem; // give space for heading
+
+}
+
+.section img {
+  display: block;
+  width: 30rem;
+  float:right;
+}
+
+@media screen and (orientation:landscape){
+.sectionContainer h1 {
+  display: none;
+  position:fixed;
+  bottom:50vh;
+  left: 10vw;
+
+  transform: rotate(-90deg);
+}
+
+.sectionContainer:hover h1 {
+  display:block;
+}
 }
 
 .resume.image {
-  width: 80%;
-  display: block;
-  float: right;
+  width:100%;
 }
 
-.section h1 {
-  display: inline-block;
-  transform: rotate(-90deg);
-  transform-origin: left top 0;
-
-  margin-top: 25rem;
-  border-bottom: 1px solid black;
+.skillsbox {
+  display:flex;
+  width:100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.section .text {
-  font-size: 1.5rem;
-  display: inline-block;
-  width: 35rem;
+.skill {
+  margin: 1rem;
 }
+

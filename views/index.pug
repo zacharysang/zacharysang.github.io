@@ -1,5 +1,10 @@
 extends layout
 
+mixin skill(name, color)
+  svg(viewBox="0 0 100 100", width="12rem", height="12rem").skill
+    circle(cx="50", cy="50", r="50", fill=color)
+    text(x="50", y="55", text-anchor="middle", font-size="1.5rem")= name
+
 block content
   div.navbar
     a.navLink(href="#Top") Top
@@ -11,40 +16,50 @@ block content
     img(src="/images/road.jpeg", x="0", y="0").banner.image
     svg(viewBox="0 0 100 100")
       defs
-        path(id="nameCircle", d="M30,50 a20,20 0 1,0 40,0a20,20 15 1,0 -40,0")
+        path(id="nameCircle", d="M6 45 A 30 30 0 1 0 94 45")
         clipPath(id="picCircle")
-          circle(cx="50", cy="50", r="14")
-      symbol(id="clippedPic", viewBox="0 0 100 100")
-        image(xlink:href="/images/profile-image.jpg", x="35", y="36", width="30", height="30", clip-path="url(#picCircle)")
-      symbol(id="picText", viewBox="0 0 100 100")
-      use(xlink:href="#clippedPic", x="0", y="0")
+          circle(cx="50", cy="50", r="28")
+        symbol(id="clippedPic", viewBox="0 0 100 100")
+          image(href="/images/profile-image.jpg", x="21", y="22", width="60", height="60", clip-path="url(#picCircle)")
+      use(href="#clippedPic", x="0", y="0")
       g(y="30")
-        use(xlink:href="#nameCircle" fill="none", stroke="white", stroke-width="0.5rem", stroke-opacity="0.5")
-        text(fill="black",font-size="0.3rem", background="white")
-          textPath(xlink:href="#nameCircle", startOffset="13%") Zachary Sang
-    div.inspiration Life's like a box of chocolates. You more or less get what you asked for
+        circle(cy="50",cx="50", r="38", fill="none", stroke="white",stroke-width="1rem", stroke-opacity="0.5")
+        text(fill="black",font-size="0.6rem", background="white")
+          textPath(href="#nameCircle", startOffset="35%") Zachary Sang
+    div.inspiration A real-life, walking, breathing computerist!
   div.gridContainer
-    div.content
-      div.section#About
+    div.contents
+      div.sectionContainer
         h1 Who I am
-        img.image
-        p.text
-          | Hello! My name is Zachary Sang (in the blue shirt) and I’m a Computer 
-          | Science Major at the University of Cincinnati (Graduating Spring 2019). 
-          | I’m a third year student at UC who moved to Cincinnati from Hong Kong for my 
-          | first year of college. I have always been interested in solving problems and 
-          | using my skills to improve things around me. I also 
-          | hold a deep interest in computers, how they work, and how they can be used creatively 
-          | to solve issues and inefficiencies. Because of all this, I’m very glad that 
-          | I was able to find myself as a CS major because it allows me to create while 
-          | continuously learning about technology and solving exciting and fascinating problems.
-      div.section#Skills
+        div.section#About
+          p
+            a(href="/images/Hackathon_Pic.jpg")
+              img(src="/images/Hackathon_Pic.jpg")
+            | Hello! My name is Zachary Sang (in the blue shirt) and I’m a Computer 
+            | Science Major at the University of Cincinnati (Graduating Spring 2019). 
+            | I’m a third year student at UC who moved to Cincinnati from Hong Kong for my 
+            | first year of college. I have always been interested in solving problems and 
+            | using my skills to improve things around me. I also 
+            | hold a deep interest in computers, how they work, and how they can be used creatively 
+            | to solve issues and inefficiencies. Because of all this, I’m very glad that 
+            | I was able to find myself as a CS major because it allows me to create while 
+            | continuously learning about technology and solving exciting and fascinating problems.
+      div.sectionContainer
         h1 Things I'm Good At
-        p
-      div.section#Experience
+        div.section#Skills
+          div.skillsbox
+            +skill("C++","red")
+            +skill("Html","blue")
+            +skill("Java","pink")
+            +skill("Python", "green")
+            +skill("Javascript","yellow")
+            +skill("Git","grey")
+      div.sectionContainer
         h1 Experience
-        p 
-      div.section#Resume
+        div.section#Experience
+          p I have some experiences!
+      div.sectionContainer
         h1 Resume
-        a(href="/images/Zachary_F_Sang_Resume.png").resume.link
-          img(src="/images/Zachary_F_Sang_Resume.png").resume.image
+        div.section#Resume
+          a(href="/images/Zachary_F_Sang_Resume.png").resume.link
+            img(src="/images/Zachary_F_Sang_Resume.png").resume.image
