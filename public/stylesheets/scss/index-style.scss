@@ -10,17 +10,19 @@ $base-color: #F36F03;
 
 .contents {
   grid-column-start: 2;
-  padding-top: 5rem;
 }
 
 .sectionContainer {
-  padding: 5rem 0;
   border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 5rem;
 }
 
 .section {
   font-size: 1.3rem;
-  padding: 0 5rem; // give space for heading
 
 }
 
@@ -28,7 +30,7 @@ $base-color: #F36F03;
   display: block;
   width: 30rem;
   float:left;
-  margin: 0 5rem;
+  margin: 0 3rem;
 }
 
 .section a {
@@ -36,7 +38,7 @@ $base-color: #F36F03;
 }
 
 .section p {
-  
+  text-align: center;
 }
 
 ::selection {
@@ -45,12 +47,19 @@ $base-color: #F36F03;
 
 
 @media screen and (orientation:landscape){
+
+
 .sectionContainer h1 {
-  position:fixed;
-  bottom:50vh;
-  left: 10vw;
+  display: inline-block;
+  position:relative;
+  left: -16rem;
+  top: 10rem;
+
+  
+  transform: rotate(-90deg);
 
 }
+
 
 .sectionContainer:not(hover) h1, .sectionContainer:not(target) h1{
   transform: rotate(-90deg) translate(0,-100vw);
@@ -64,10 +73,51 @@ $base-color: #F36F03;
 
 }
 
+@media screen and(orientation:portrait){
+
+.section {
+  padding: 0;
+}
+
+.section img {
+  margin: 0 0;
+}
+
+}
+
+//define background colors
+.sectionContainer#About:hover {
+  background-color: lightblue;
+  transition: 0.25s;
+}
+
+.sectionContainer#Skills:hover {
+  background-color: lightgreen;
+  transition:0.25s;
+}
+
+.sectionContainer#Experience:hover {
+  background-color: lemonchiffon;
+  transition: 0.25s;
+
+}
+
+.sectionContainer#Activities:hover {
+  background-color: lightcoral;
+  transition: 0.25s;
+}
+
+.sectionContainer#Resume:hover {
+  background-color: plum;
+  transition: 0.25s;
+}
+
+
 .resume.image {
   width:100%;
   display: inline-block;
   float: none;
+  margin: 0;
 }
 
 .skillsbox {
