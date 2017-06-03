@@ -3,10 +3,11 @@ var mainColors = ['#F36F03','lightblue','lightgreen','#bef4f1','#ffe0e9','plum']
 
 $(document).ready(function(){
     //listen for mouseover on sectionContainer to trigger color change
-    $('.sectionContainer').on('mouseover',function(ev){
+    $('.sectionContainer').on('mouseover touchstart hover scrollstart scrollend',function(ev){
 
         //get id of current element
-        var currSection = parseInt($(ev.target).attr('itemNum'));
+        var currSection = parseInt($(ev.target).closest('.sectionContainer').attr('itemNum'));
+
 
         //get color of current element
         var mainCol = mainColors[currSection];
@@ -15,6 +16,8 @@ $(document).ready(function(){
         $('.gridContainer').css({"transition":"0.3s","background-color":mainCol});
         $('.navbar').css({"transition":"0.3s","background-color":navCol});
 
+        //alert('changed color to: ' + mainCol);
+
     });
 
     //listen for mouseover banner to reset color
@@ -22,6 +25,8 @@ $(document).ready(function(){
         $('.gridContainer').css({"transition":"0.3s","background-color":'white'});
         $('.navbar').css({"transition":"0.3s","background-color":'#F36F03'});
     })
+
+    //listen for scroll and check position of top of screen
 
     slogPos = 0;
     slogans = $('.tagline');
