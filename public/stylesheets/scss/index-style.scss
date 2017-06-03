@@ -41,10 +41,6 @@ $base-color: #F36F03;
   text-align: center;
 }
 
-::selection {
-  background-color: red;
-}
-
 
 @media screen and (orientation:landscape){
 
@@ -83,33 +79,6 @@ $base-color: #F36F03;
   margin: 0 0;
 }
 
-}
-
-//define background colors
-.sectionContainer#About:hover {
-  background-color: lightblue;
-  transition: 0.25s;
-}
-
-.sectionContainer#Skills:hover {
-  background-color: lightgreen;
-  transition:0.25s;
-}
-
-.sectionContainer#Experience:hover {
-  background-color: lemonchiffon;
-  transition: 0.25s;
-
-}
-
-.sectionContainer#Activities:hover {
-  background-color: lightcoral;
-  transition: 0.25s;
-}
-
-.sectionContainer#Resume:hover {
-  background-color: plum;
-  transition: 0.25s;
 }
 
 

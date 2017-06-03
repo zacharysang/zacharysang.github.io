@@ -34,7 +34,7 @@ block content
           span(class="computerist") computerist!
   div.gridContainer
     div.contents
-      div.sectionContainer#About
+      div.sectionContainer#About(itemNum="1")
         h1 Who I am
         div.section
           p
@@ -49,7 +49,7 @@ block content
             | to solve issues and inefficiencies. Because of all this, I’m very glad that 
             | I was able to find myself as a CS major because it allows me to create while 
             | continuously learning about technology and solving exciting and fascinating problems.
-      div.sectionContainer#Skills
+      div.sectionContainer#Skills(itemNum="2")
         h1 Things I'm Good At
         div.section
           div.skillsbox
@@ -59,7 +59,7 @@ block content
             +skill("Html","blue")
             +skill("C++","red")
             +skill("Git","grey")
-      div.sectionContainer#Experience
+      div.sectionContainer#Experience(itemNum="3")
         h1 My Experience
         div.section
           h2#UsBank US Bank
@@ -70,7 +70,7 @@ block content
             span.duration  (Spring 2016)
           h2#Velocity Velocity Business Solutions
             span.duration  (Summer 2015)
-      div.sectionContainer#Activities
+      div.sectionContainer#Activities(itemNum="4")
         h1 Things I do
         div.section
           h2#RevolutionUC RevolutionUC
@@ -78,7 +78,7 @@ block content
           h2#BearcatBuddies Bearcat Buddies
             span.duration  (Spring 2016, Fall 2016)
 
-      div.sectionContainer#Resume
+      div.sectionContainer#Resume(itemNum="5")
         h1 Resume
         div.section
           a(href="/images/Zachary_F_Sang_Resume.png").resume.link
