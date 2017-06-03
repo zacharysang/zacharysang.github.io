@@ -14,9 +14,9 @@ $base-color: #F36F03;
 
 .sectionContainer {
   border-bottom: 2px solid black;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  //display: flex;
+  //flex-direction: row;
+  //flex-wrap: wrap;
 
   padding: 5rem;
 }
@@ -37,7 +37,7 @@ $base-color: #F36F03;
   display: block;
 }
 
-.section p {
+.sectionContainer#About p {
   text-align: center;
 }
 

@@ -27,8 +27,12 @@
 }
 
 .inspiration {
-    width: 30rem;
-    height: 30rem;
+    //width: 30rem;
+    //height: 30rem;
+    display: inline;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.3rem;
 }
 
 .funtext {
@@ -37,7 +41,8 @@
 
 .computerist {
     font-family: "Share Tech Mono";
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-style: italic;
 }
 
 .banner svg {
