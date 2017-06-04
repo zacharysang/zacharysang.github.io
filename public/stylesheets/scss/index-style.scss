@@ -52,12 +52,9 @@ $base-color: #F36F03;
 
 }
 
-.sectionContent img, .sectionContent p{
+.sectionContent .entryPic, .sectionContent p{
   width: 35rem;
   position: absolute;
-  right: 0;
-  top: 0;
-  margin: 0;
 }
 
 .sectionContent p {

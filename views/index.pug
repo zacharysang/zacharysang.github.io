@@ -85,13 +85,42 @@ block content
       div.sectionContainer#Skills(itemNum="2")
         h1 Things I'm Good At
         div.section
-          div.skillsbox
-            +skill("Java","pink")
-            +skill("Javascript","yellow")
-            +skill("Python", "green")
-            +skill("Html","blue")
-            +skill("C++","red")
-            +skill("Git","grey")
+          div.sectionHeadings
+            h2.Java Java
+            h2.Javascript Javascript
+            h2.Python Python
+            h2.Html HTML/ CSS
+            h2.cpp C++
+            h2.Git Git
+          div.sectionContent
+            div.entry.Java
+              img.entryPic
+              p
+                |Throughout my experience both at Siemens PLM Software and at 
+                |US Bank, I have gained experience in working with Java on web applications. I have learned to use technologies
+                | such as Selenium, Javabeans, Java servlets and JSPs.
+            div.entry.Javascript
+              img.entryPic
+              p
+                |In the past year I have developed a strong interest in web technologies
+                | and have become experienced through working on web-based applications at several hackathons
+                | throughout the year. From this, I have gained experience in not only client-side Javascript and JQuery, 
+                |but also server-side NodeJS and ExpressJS.
+            div.entry.Html
+              img.entryPic
+              p
+                |From my experience with web-applications gained from tinkering 
+                |in my free time, participating in hackathons, and from my co-op employment, I have become very familiar with HTML and CSS.
+            div.entry.Python
+              img.entryPic
+              p
+                |During my experience working with a professor in the Spring of 2016 I work extensively with Python in making
+                | a utility that created snapshots of a given github repository and stored them under a specific file structure. 
+            div.entry.Git
+              img.entryPic
+              p
+                |By using Git while participating in Hackathons and when working on my own projects, I have become very comfortable
+                | with using Git to not only track changes, but also to generally manage code in a well-structured manner.
       div.sectionContainer#Experience(itemNum="3")
         h1 My Experience
         div.section
@@ -102,7 +131,7 @@ block content
             h2.Velocity Velocity Business Solutions
           div.sectionContent
             div.entry.USBank
-              img(src="/images/usbanklogo.jpg")
+              img(src="/images/usbanklogo.jpg").entryPic
               p
                 |At my time at Siemens I worked as a developer for Siemens PLM on their Active Knowledge Sharing (AKS) team.
                 | AKS is a web application that helps tracking and managing business and manufacturing processes. 
@@ -114,7 +143,7 @@ block content
                 |regex to capture phrases and map them to Java code. Additionally, through this experience I was able 
                 |to greatly expand my familiarity with HTML and CSS.
             div.entry.Siemens
-              img(src="/images/Siemens_picnic_pic.jpg")
+              img(src="/images/Siemens_picnic_pic.jpg").entryPic
               p
                 |At my time at Siemens I worked as a developer for Siemens PLM on their Active Knowledge Sharing (AKS) team.
                 | AKS is a web application that helps tracking and managing business and manufacturing processes. 
@@ -126,7 +155,7 @@ block content
                 |regex to capture phrases and map them to Java code. Additionally, through this experience I was able 
                 |to greatly expand my familiarity with HTML and CSS.
             div.entry.Velocity
-              img(src="/images/Legend_Tower_VBS_pic.jpg")
+              img(src="/images/Legend_Tower_VBS_pic.jpg").entryPic
               p
                 |At my time at Siemens I worked as a developer for Siemens PLM on their Active Knowledge Sharing (AKS) team.
                 | AKS is a web application that helps tracking and managing business and manufacturing processes. 
