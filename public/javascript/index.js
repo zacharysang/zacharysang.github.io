@@ -10,8 +10,8 @@ $(document).ready(function(){
 
 
         //get color of current element
-        var mainCol = mainColors[currSection];
-        var navCol = navColors[currSection];
+        mainCol = mainColors[currSection];
+        navCol = navColors[currSection];
 
         $('.gridContainer').css({"transition":"0.3s","background-color":mainCol});
         $('.navbar').css({"transition":"0.3s","background-color":navCol});
@@ -36,7 +36,7 @@ $(document).ready(function(){
 
         //highlight the heading
         $('.sectionHeadings h2').each(function(){$(this).css({'background-color':'inherit','color':'inherit','transition':'0.2s'})});
-        $(ev.target).css({'background-color': 'teal', 'color': 'white', 'transition': '0.2s'});
+        $(ev.target).css({'background-color': navCol, 'color': 'white', 'transition': '0.2s'});
 
 
     });
