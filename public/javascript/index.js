@@ -16,8 +16,6 @@ $(document).ready(function(){
         $('.gridContainer').css({"transition":"0.3s","background-color":mainCol});
         $('.navbar').css({"transition":"0.3s","background-color":navCol});
 
-        //alert('changed color to: ' + mainCol);
-
     });
 
     //listen for mouseover banner to reset color
@@ -26,8 +24,17 @@ $(document).ready(function(){
         $('.navbar').css({"transition":"0.3s","background-color":'#F36F03'});
     })
 
-    //listen for scroll and check position of top of screen
+    //listen for scroll and check position of top of screen, replace the mouseover stuff
 
+    //listen for click on the h1 elements
+    $('.sectionHeadings h2').on('click',function(ev){
+        $('.sectionContent .entry').each(function(){$(this).hide()});
+
+        $(`.sectionContent .${$(ev.target).attr('class')}`).show();
+    });
+
+
+    //code for rotating tagline. can probably be refactored to remove bad global vars
     slogPos = 0;
     slogans = $('.tagline');
     window.setInterval(rotateSlogan, 5000);
