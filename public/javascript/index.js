@@ -28,9 +28,17 @@ $(document).ready(function(){
 
     //listen for click on the h1 elements
     $('.sectionHeadings h2').on('click',function(ev){
-        $('.sectionContent .entry').each(function(){$(this).hide()});
+        
+        
+        $('.sectionContent .entry').each(function(){$(this).animate({opacity: 0},100)});
 
-        $(`.sectionContent .${$(ev.target).attr('class')}`).show();
+        $(`.sectionContent .${$(ev.target).attr('class')}`).animate({opacity: 1},100);
+
+        //highlight the heading
+        $('.sectionHeadings h2').each(function(){$(this).css({'background-color':'inherit','color':'inherit','transition':'0.2s'})});
+        $(ev.target).css({'background-color': 'teal', 'color': 'white', 'transition': '0.2s'});
+
+
     });
 
 

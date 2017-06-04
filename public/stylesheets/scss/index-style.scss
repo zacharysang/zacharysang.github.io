@@ -81,16 +81,18 @@ $base-color: #F36F03;
 
 .sectionHeadings {
   font-size: 1.4rem;
-  padding: auto;
 }
 
+.sectionHeadings h2 {
+  padding: 1rem;
+}
 
 .section a {
   display: block;
 }
 
 .entry {
-  display: none;
+  opacity: 0;
 }
 
 
