@@ -52,9 +52,13 @@ $base-color: #F36F03;
 
 }
 
+
 .sectionContent .entryPic, .sectionContent p{
   width: 35rem;
-  position: absolute;
+}
+
+.sectionContent .entryPic {
+  position: relative;
 }
 
 .sectionContent p {
@@ -63,6 +67,7 @@ $base-color: #F36F03;
   background-color: rgba(255, 255 , 255, 0.8);
   max-height: 21rem;
   overflow: hidden;
+  position: absolute
 }
 
 .sectionContent:not(hover) p {
@@ -90,6 +95,7 @@ $base-color: #F36F03;
 
 .entry {
   opacity: 0;
+  display:none;
 }
 
 
@@ -102,7 +108,7 @@ $base-color: #F36F03;
   display: inline-block;
   position:absolute;
   left: -12rem;
-  top: 10%;
+  top: 10rem;
   text-anchor: end;
 
   
