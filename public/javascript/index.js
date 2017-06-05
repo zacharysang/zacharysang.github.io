@@ -1,4 +1,4 @@
-var navColors = ['#F36F03','darkblue','green', 'teal','crimson','purple'];
+var navColors = ['rgba(243,111,3,0.7)','rgba(0,0,139,0.7)','rgba(0,128,0,0.7)', 'rgba(0,128,128,0.7)','rgba(220,20,60,0.7)','rgba(128,0,128,0.7)'];
 var mainColors = ['#F36F03','lightblue','lightgreen','#bef4f1','#ffe0e9','plum'];
 
 $(document).ready(function(){
@@ -21,7 +21,7 @@ $(document).ready(function(){
     //listen for mouseover banner to reset color
     $('.banner').on('mouseover', function(ev){
         $('.gridContainer').css({"transition":"0.3s","background-color":'white'});
-        $('.navbar').css({"transition":"0.3s","background-color":'#F36F03'});
+        $('.navbar').css({"transition":"0.3s","background-color":navColors[0]});
     })
 
     //listen for scroll and check position of top of screen, replace the mouseover stuff
@@ -38,6 +38,8 @@ $(document).ready(function(){
         $('.sectionHeadings h2').each(function(){$(this).css({'background-color':'inherit','color':'inherit','transition':'0.2s'})});
         $(ev.target).css({'background-color': navCol, 'color': 'white', 'transition': '0.2s'});
 
+        //^maybe just apply a class?
+        
 
     });
 
