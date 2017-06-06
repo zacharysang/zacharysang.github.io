@@ -22,9 +22,7 @@ $base-color: #F36F03;
   padding: 1rem;
 }
 
-.sectionContainer#Experience {
-  height: 30rem;
-}
+
 
 .section {
   font-size: 1.3rem;
@@ -34,6 +32,8 @@ $base-color: #F36F03;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  position: relative;
 
 }
 
@@ -61,6 +61,7 @@ $base-color: #F36F03;
   position: relative;
 }
 
+
 .sectionContent p {
   top: 2rem;
   padding: 2rem;
@@ -70,22 +71,11 @@ $base-color: #F36F03;
   position: absolute
 }
 
-.sectionContent:not(hover) p {
-  opacity: 0;
-  transition: 0.3s;
-}
 
-.sectionContent:hover p {
-  opacity: 1;
-  transition: 0.3s;
-}
-
-
-.sectionHeadings {
-  font-size: 1.4rem;
-}
 
 .sectionHeadings h2 {
+  
+  font-size: 1.4rem;
   padding: 1rem;
 }
 
@@ -144,6 +134,16 @@ $base-color: #F36F03;
 .sectionContainer:hover h1{
   transform: rotate(-90deg) translate(0,0);
   transition: 0.2s;
+}
+
+.sectionContent:not(hover) p {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.sectionContent:hover p {
+  opacity: 1;
+  transition: 0.3s;
 }
 
 }
