@@ -95,8 +95,27 @@ $base-color: #F36F03;
 
 .entry {
   opacity: 0;
-  display:none;
+  display: none;
+  transition: 0.2s;
 }
+
+//careful!
+.entry.show {
+  opacity: 1;
+  display: inherit;
+  transition: 0.2s;
+}
+
+
+
+.resume.image {
+  width:100%;
+  display: inline-block;
+  float: none;
+  margin: 0;
+}
+
+
 
 
 
@@ -140,24 +159,3 @@ $base-color: #F36F03;
 }
 
 }
-
-
-.resume.image {
-  width:100%;
-  display: inline-block;
-  float: none;
-  margin: 0;
-}
-
-.skillsbox {
-  display:flex;
-  width:100%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.skill {
-  margin: 1rem;
-}
-
