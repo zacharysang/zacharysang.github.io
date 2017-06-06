@@ -30,7 +30,8 @@ $(document).ready(function(){
 
     //listen for click on the h1 elements
     $('.sectionHeadings h2').on('click',function(ev){
-        $('.sectionContent .entry').each(function(){
+        var sectionContainer = $(ev.target).closest('.sectionContainer');
+        $(`.sectionContainer#${$(sectionContainer).attr('id')} .entry`).each(function(){
             $(this).animate({opacity: 0},100);
             $(this).hide();
         });
@@ -38,7 +39,7 @@ $(document).ready(function(){
         $(`.sectionContent .${$(ev.target).attr('class')}`).animate({opacity: 1},100).show();
 
         //highlight the heading
-        $('.sectionHeadings h2').each(function(){$(this).css({'background-color':'inherit','color':'inherit','transition':'0.2s'})});
+        $(`.sectionContainer#${$(sectionContainer).attr('id')} h2`).each(function(){$(this).css({'background-color':'inherit','color':'inherit','transition':'0.2s'})});
         $(ev.target).css({'background-color': navCol, 'color': 'white', 'transition': '0.2s'});
 
         //^maybe just apply a class?
