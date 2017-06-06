@@ -12,10 +12,9 @@
 # Site settings
 # in the templates available like {{ site.myvariable }}.
 title: About Zachary Sang
-email: zacharysang@gmail.com
-headline: Inventor, Engineer and Futurist
+brand: Zachary Sang
+headline: > #ignore
 description: > # this means to ignore newlines until "baseurl:"
-  New Site
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zacharysang.me" # the base hostname & protocol for your site
 
@@ -23,9 +22,15 @@ url: "https://zacharysang.me" # the base hostname & protocol for your site
 markdown: kramdown
 include: [_markdown/]
 
-# Account ids
-#snapwidget: 247552
+# External profile links
+github: github.com/zacharysang
+linkedin: linkedin.com/in/zacharysang
+
+
+# Contacts
+phone: +1-513-808-7865
+email: zacharysang@gmail.com
 
 # Tracking
-#googleAnalitycsID: UA-83933844-1
+googleAnalitycsID: UA-89511681-1
 

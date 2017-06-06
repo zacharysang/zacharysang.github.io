@@ -7,7 +7,7 @@ title: Experience
 
 ## Siemens PLM Software (Java Developer, August 2015 - August 2016)
 
-<img class="no-mobile" src="web-dist/images/Siemens_picnic_pic.jpg" align="center" width="500"/>
+<img class="no-mobile med" src="web-dist/images/Siemens_picnic_pic.jpg" align="right"/>
 
 
 My first and second co-op terms took place in the Fall of 2015 and the Summer of 2016. 
@@ -52,7 +52,7 @@ meaningful for our professor.
 
 ## Velocity Business Solutions (Intern, May 2015 - July 2015)
 
-<!--img class="no-mobile" src="web-dist/images/VBS_pic.JPG" align="center" width="500"/-->
+<!--img class="no-mobile med-img" src="web-dist/images/VBS_pic.JPG" align="center"/-->
 
 
 Over the summer of 2015 I worked at Velocity Business Solutions, a company that specializes in 

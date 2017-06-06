@@ -3,8 +3,10 @@ layout: section
 title: Resume
 ---
 
-## My Resume
-
-<img class="no-mobile" src="web-dist/images/Zachary_F_Sang_Resume.png" width="750" style="max-width: 100%;" align="center"/>
-
-My resume can also be viewed as a pdf <a href="web-dist/images/Zachary_F_Sang_Resume.pdf" target="_blank">here</a>
+## My Resume (<a href="web-dist/images/Zachary_F_Sang_Resume.pdf" target="_blank">pdf</a>)
+<div width="100%">
+	<img class="no-mobile" src="web-dist/images/Zachary_F_Sang_Resume.png" width="750" style="display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;"/>
+</div>
