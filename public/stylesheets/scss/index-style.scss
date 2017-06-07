@@ -54,6 +54,7 @@ $base-color: #F36F03;
 
 
 .sectionContent .entryPic, .sectionContent p{
+  top: 0;
   width: 35rem;
 }
 
@@ -62,15 +63,13 @@ $base-color: #F36F03;
 }
 
 .section p {
-  top: 2rem;
+  margin-top: 0;
   padding: 2rem;
   background-color: rgba(255, 255 , 255, 0.8);
   overflow: hidden;
 }
 
 .sectionContent p {
-
-  max-height: 21rem;
   position: absolute
 }
 
