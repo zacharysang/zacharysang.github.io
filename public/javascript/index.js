@@ -31,19 +31,22 @@ $(document).ready(function(){
     //listen for click on the h1 elements
     $('.sectionHeadings h2').on('click',function(ev){
         var sectionContainer = $(ev.target).closest('.sectionContainer');
+
+        //hide all section content
         $(`.sectionContainer#${$(sectionContainer).attr('id')} .entry`).each(function(){
-            $(this).animate({opacity: 0},100);
-            $(this).hide();
+            $(this).removeClass('show');
         });
 
-        $(`.sectionContent .${$(ev.target).attr('class')}`).animate({opacity: 1},100).show();
+        //deselect all selected in this section
+        $(`.sectionContainer#${$(sectionContainer).attr('id')} h2`).each(function(){
+            $(this).removeClass('selected');
+        });
 
-        //highlight the heading
-        $(`.sectionContainer#${$(sectionContainer).attr('id')} h2`).each(function(){$(this).css({'background-color':'inherit','color':'inherit','transition':'0.2s'})});
-        $(ev.target).css({'background-color': navCol, 'color': 'white', 'transition': '0.2s'});
+        //show the newly selected section content
+        $(`.sectionContent .${$(ev.target).attr('class')}`).addClass('show');
 
-        //^maybe just apply a class?
-       
+        //add selected class to the h2 el
+        $(ev.target).addClass('selected');
 
     });
 

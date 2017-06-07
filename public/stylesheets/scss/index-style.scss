@@ -61,23 +61,40 @@ $base-color: #F36F03;
   position: relative;
 }
 
-
-.sectionContent p {
+.section p {
   top: 2rem;
   padding: 2rem;
   background-color: rgba(255, 255 , 255, 0.8);
-  max-height: 21rem;
   overflow: hidden;
+}
+
+.sectionContent p {
+
+  max-height: 21rem;
   position: absolute
 }
 
 
 
 .sectionHeadings h2 {
-  
+  background-color: rgba(0,0,0,0.2);
   font-size: 1.4rem;
   padding: 1rem;
 }
+
+.sectionHeadings h2.selected {
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  transition: 0.2s;
+}
+
+h2:hover {
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  transition: 0.2s;
+}
+
+
 
 .section a {
   display: block;
@@ -103,6 +120,12 @@ $base-color: #F36F03;
   margin: 0;
 }
 
+.resume {
+  opacity: 0.9;
+}
+
+
+
 @media screen and (orientation:landscape){
 
 
@@ -119,6 +142,7 @@ $base-color: #F36F03;
 }
 
 
+
 .sectionContainer:not(hover) h1, .sectionContainer:not(target) h1{
   transform: rotate(-90deg) translate(0,-100vw);
   transition: 0.2s;
@@ -129,22 +153,16 @@ $base-color: #F36F03;
   transition: 0.2s;
 }
 
-.sectionContent:not(hover) p {
-  opacity: 0;
-  transition: 0.3s;
-}
-
-.sectionContent:hover p {
-  opacity: 1;
-  transition: 0.3s;
-}
-
 }
 
 @media screen and(orientation:portrait){
 
 .section {
   padding: 0;
+}
+
+h1 {
+  margin-left: 2rem;
 }
 
 .section img {
