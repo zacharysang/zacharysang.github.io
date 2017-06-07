@@ -56,6 +56,9 @@ $(document).ready(function(){
     slogans = $('.tagline');
     window.setInterval(rotateSlogan, 5000);
 
+    //listen for clicks on slogan thing
+    $('.inspiration.bannerItem').on('click',rotateSlogan);
+
 });
 
 
@@ -68,7 +71,5 @@ function rotateSlogan(){
     $(slogans[(slogPos+1) % slogans.length]).removeClass('hide');
     
     slogPos = (++slogPos) % slogans.length;
-
-
 
 }
