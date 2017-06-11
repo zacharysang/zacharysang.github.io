@@ -18,8 +18,8 @@ $base-color: #F36F03;
 }
 
 .sectionContainer#About p {
-  text-align: center;
   padding: 1rem;
+  text-align: justify;
 }
 
 
@@ -54,7 +54,6 @@ $base-color: #F36F03;
 
 
 .sectionContent .entryPic, .sectionContent p{
-  top: 0;
   width: 35rem;
 }
 
@@ -63,14 +62,15 @@ $base-color: #F36F03;
 }
 
 .section p {
-  margin-top: 0;
   padding: 2rem;
   background-color: rgba(255, 255 , 255, 0.8);
   overflow: hidden;
+  bottom: 4rem;
 }
 
 .sectionContent p {
-  position: absolute
+  position: absolute;
+  text-align: justify;
 }
 
 
