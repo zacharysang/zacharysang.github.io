@@ -73,6 +73,10 @@ $base-color: #F36F03;
   text-align: justify;
 }
 
+.sectionContent p:hover{
+  opacity: 0.4;
+  transition: 0.3s;
+}
 
 
 .sectionHeadings h2 {
