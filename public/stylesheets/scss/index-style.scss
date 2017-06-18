@@ -40,6 +40,20 @@ $base-color: #F36F03;
 .section.intro img {
   width: 35rem;
   float: left;
+  position: absolute;
+}
+
+.section.intro img {
+  position: absolute;
+}
+
+.section.intro img.highlight {
+  opacity: 0;
+}
+
+.section.intro img.highlight:hover {
+  opacity:1;
+  transition: 0.2s;
 }
 
 .section.intro p {
@@ -167,8 +181,9 @@ h1 {
   margin-left: 2rem;
 }
 
-.section img {
+.section.intro img.normal {
   margin: 0 0;
+  position: static;
 }
 
 }
