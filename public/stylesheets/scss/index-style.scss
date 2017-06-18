@@ -56,6 +56,18 @@ $base-color: #F36F03;
   transition: 0.2s;
 }
 
+.section.intro a img.highlight {
+  display: none;
+}
+
+.section.intro a:hover img.normal{
+  display: none;
+}
+
+.section.intro a:hover img.highlight{
+  display: inherit;
+}
+
 .section.intro p {
   width: 35rem;
 }
