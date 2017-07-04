@@ -1,5 +1,7 @@
-var navColors = ['rgba(243,111,3,0.7)','rgba(0,0,139,0.7)','rgba(0,128,0,0.7)', 'rgba(0,128,128,0.7)','rgba(220,20,60,0.7)','rgba(128,0,128,0.7)'];
-var mainColors = ['#FFA962','#DAF0F8','#DEFEDE','#ecfefd','#ffe7ff','#F2CEF2'];
+//var navColors = ['rgba(243,111,3,0.7)','rgba(1,80,151,0.7)','rgba(1,114,215,0.7)', 'rgba(36,149,250,0.7)','rgba(10,135,247,0.7)','rgba(39,145,240,0.7)'];
+var navColors = ['rgba(243,111,3,0.7)','rgba(1,114,215,0.7)','rgba(36,149,250,0.7)', 'rgba(1,114,215,0.7)','rgba(36,149,250,0.7)','rgba(1,114,215,0.7)'];
+var mainColors = ['#FFA962','#DAF0F8','#DAF0F8','#DAF0F8','#DAF0F8','#DAF0F8'];
+//var mainColors = ['#FFFFFF','#FFFFFF','#FFFFFF','#FFFFFF','#FFFFFF','#FFFFFF'];
 
 $(document).ready(function(){
     //listen for mouseover on sectionContainer to trigger color change

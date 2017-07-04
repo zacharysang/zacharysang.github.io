@@ -75,7 +75,7 @@ $base-color: #F36F03;
 
 .section p {
   padding: 2rem;
-  background-color: rgba(255, 255 , 255, 0.8);
+  background-color: rgba(255, 255 , 255, 0.95);
   overflow: hidden;
   bottom: 4rem;
 }
@@ -83,11 +83,6 @@ $base-color: #F36F03;
 .sectionContent p {
   position: absolute;
   text-align: justify;
-}
-
-.sectionContent p:hover{
-  opacity: 0.4;
-  transition: 0.3s;
 }
 
 
