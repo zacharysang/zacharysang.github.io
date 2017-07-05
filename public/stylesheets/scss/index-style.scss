@@ -95,6 +95,7 @@ $base-color: #F36F03;
 .sectionHeadings h2.selected {
   background-color: rgba(0,0,0,0.7);
   color: white;
+  box-shadow: 0 0 0.3rem black;
   transition: 0.2s;
 }
 
