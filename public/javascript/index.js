@@ -1,5 +1,5 @@
 //var navColors = ['rgba(243,111,3,0.7)','rgba(1,80,151,0.7)','rgba(1,114,215,0.7)', 'rgba(36,149,250,0.7)','rgba(10,135,247,0.7)','rgba(39,145,240,0.7)'];
-var navColors = ['rgba(243,111,3,0.7)', 'rgba(48,107,129,0.7)','rgba(34,153,85,0.7)','rgba(17,85,136,0.7)','rgba(136,17,85,0.7)','rgba(255,255,255,0.5)'];
+var navColors = ['rgba(243,111,3,0.5)', 'rgba(48,107,129,0.5)','rgba(34,153,85,0.5)','rgba(17,85,136,0.5)','rgba(136,17,85,0.5)','rgba(255,255,255,0.5)'];
 //var mainColors = ['#FFA962','#DAF0F8','#DAF0F8','#DAF0F8','#DAF0F8','#DAF0F8'];
 var mainColors = ['#FFFFFF','#FFFFFF','#FFFFFF','#FFFFFF','#FFFFFF','#FFFFFF'];
 
