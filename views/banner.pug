@@ -1,0 +1,22 @@
+extends index
+
+block banner
+    div.banner
+        img(src="/images/road.jpeg", x="0", y="0").banner.image
+        svg(viewBox="0 0 100 100").bannerItem
+            defs
+                path(id="nameCircle", d="M6 45 A 30 30 0 1 0 94 45")
+                clipPath(id="picCircle")
+                circle(cx="50", cy="50", r="28")
+                symbol(id="clippedPic", viewBox="0 0 100 100")
+            image(href="/images/profile-image.jpg", x="21", y="22", width="60", height="60", clip-path="url(#picCircle)")
+            use(href="#clippedPic", x="0", y="0")
+            g(y="30")
+            circle(cy="50",cx="50", r="38", fill="none", stroke="white",stroke-width="1rem", stroke-opacity="0.5")
+            text(font-size="0.6rem")
+            textPath(href="#nameCircle", startOffset="35%") Zachary Sang
+        svg(viewBox="0 0 100 100").inspiration.bannerItem
+          rect(width="100", height="100", fill="white", opacity="0.5")
+          foreignObject(x="15" y="15" width="70" height="70")
+          p.funtext A real-life, walking, talking 
+          span(class="computerist") computerist!
