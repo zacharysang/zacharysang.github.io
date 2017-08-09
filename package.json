@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "nodemon ./bin/www-dev",
-    "start": "nodemon daemon.js start",
-    "stop": "nodemon daemon.js stop",
-    "restart": "nodemon daemon.js stop & nodemon daemon.js start"
+    "start": "sudo nodemon daemon.js start",
+    "stop": "sudo nodemon daemon.js stop",
+    "restart": "sudo nodemon daemon.js stop & sudo nodemon daemon.js start"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
