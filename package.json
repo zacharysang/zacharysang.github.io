@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node daemon.js start",
     "dev": "node ./bin/www-dev",
-    "stop": "node daemon.js stop"
+    "stop": "node daemon.js stop",
+    "restart": "node daemon.js stop & node daemon.js start"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
