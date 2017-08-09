@@ -1,5 +1,5 @@
 var daemon = require("daemonize2").setup({
-    main: "bin/www",
+    main: "./bin/www",
     name: "zacharysang",
     pidfile: "zacharysang.pid"
 });
