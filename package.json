@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node daemon.js start",
-    "dev": "node ./bin/www-dev",
-    "stop": "node daemon.js stop",
-    "restart": "node daemon.js stop & node daemon.js start"
+    "dev": "nodemon ./bin/www-dev",
+    "start": "nodemon daemon.js start",
+    "stop": "nodemon daemon.js stop",
+    "restart": "nodemon daemon.js stop & nodemon daemon.js start"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
