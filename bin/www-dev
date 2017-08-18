@@ -3,17 +3,16 @@
 /**
  * Module dependencies.
  */
-
-var env = require('../env');
 var app = require('../app');
 var debug = require('debug')('zacharysang.com:server');
 var http = require('http');
+var env = require('dotenv')
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(env.DEV_PORT || '3000');
+var port = normalizePort(process.env.DEV_PORT || '3000');
 app.set('port', port);
 
 /**
