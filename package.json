@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon ./bin/www-dev",
     "start": "nodemon daemon.js start",
-    "stop": "nodemon daemon.js stop",
+    "stop": "node daemon.js stop",
     "restart": "nodemon daemon.js stop & nodemon daemon.js start"
   },
   "dependencies": {
