@@ -4,14 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "nodemon ./bin/www-dev",
-    "start": "nodemon daemon.js start",
-    "stop": "node daemon.js stop",
-    "restart": "nodemon daemon.js stop & nodemon daemon.js start"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
     "cookie-parser": "~1.4.3",
-    "daemonize2": "^0.4.2",
     "debug": "~2.6.3",
     "dotenv": "^4.0.0",
     "express": "~4.15.2",
