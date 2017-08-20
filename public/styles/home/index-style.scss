@@ -1,8 +1,5 @@
 $base-color: #F36F03;
 
-@import "banner-style.scss";
-@import "navbar-style.scss";
-
 .gridContainer {
   display: grid;
   grid-template-columns: 1fr 80rem 1fr;
