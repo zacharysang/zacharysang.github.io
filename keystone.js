@@ -25,6 +25,16 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'User',
+
+	'port': process.env.PORT || 3000,
+	'ssl port': process.end.SSL_PORT || 3001,
+	'ssl': 'force',
+	letsencrypt: {
+		email: 'zacharysang@gmail.com',
+		domains: ['zacharysang.com', 'www.zacharysang.com'],
+		register: true,
+		tos: true,
+	}
 });
 
 // Load your project's Models
