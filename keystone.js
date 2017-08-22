@@ -27,7 +27,7 @@ keystone.init({
 	'user model': 'User',
 
 	'port': process.env.PORT || 3000,
-	'ssl port': process.end.SSL_PORT || 3001,
+	'ssl port': process.env.SSL_PORT || 3001,
 	'ssl': 'force',
 	letsencrypt: {
 		email: 'zacharysang@gmail.com',
