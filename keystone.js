@@ -29,7 +29,7 @@ keystone.init({
 
 	'port': process.env.PORT || 3000,
 	'ssl port': process.env.SSL_PORT || 3001,
-	'ssl': 'force',
+	'ssl': 'false',
 	'ssl cert': letsencryptPath + 'cert.pem',
 	letsencrypt: {
 		email: 'zacharysang@gmail.com',
