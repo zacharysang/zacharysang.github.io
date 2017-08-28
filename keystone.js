@@ -4,7 +4,7 @@ require('dotenv').config();
 
 // Require keystone
 var keystone = require('keystone');
-var letsencryptPath = '/home/ec2-user/letsencrypt/etc/live/zacharysang.com'
+var letsencryptPath = '/home/ec2-user/letsencrypt/etc/live/zacharysang.com/'
 
 // Initialise Keystone with your project's configuration.
 // See http://keystonejs.com/guide/config for available options
