@@ -32,6 +32,7 @@ keystone.init({
 	'ssl port': process.env.SSL_PORT || 3001,
 	'ssl': 'true',
 	'ssl cert': letsencryptPath + 'cert.pem',
+	'ssl key': letsencryptPath + 'privkey.pem',
 	letsencrypt: {
 		email: 'zacharysang@gmail.com',
 		domains: ['zacharysang.com', 'www.zacharysang.com'],
