@@ -4,7 +4,7 @@ require('dotenv').config();
 
 // Require keystone
 var keystone = require('keystone');
-var letsencryptPath = '/home/ec2-user/letsencrypt/etc/live/zacharysang.com/';
+var letsencryptPath = process.env.LEX_PATH || '/';
 
 // Initialise Keystone with your project's configuration.
 // See http://keystonejs.com/guide/config for available options
@@ -38,7 +38,7 @@ keystone.init({
 		domains: ['zacharysang.com', 'www.zacharysang.com'],
 		register: true,
 		tos: true,
-		server: 'https://acme-v01.api.letsencrypt.org/directory',
+		production: process.env.PRODUCTION,
 	}
 });
 
