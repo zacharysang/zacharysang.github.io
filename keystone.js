@@ -30,7 +30,7 @@ keystone.init({
 
 	'port': process.env.PORT || 3000,
 	'ssl port': process.env.SSL_PORT || 3001,
-	'ssl': 'true',
+	'ssl': 'force',
 	'ssl cert': letsencryptPath + 'cert.pem',
 	'ssl key': letsencryptPath + 'privkey.pem',
 	letsencrypt: {
@@ -38,6 +38,7 @@ keystone.init({
 		domains: ['zacharysang.com', 'www.zacharysang.com'],
 		register: true,
 		tos: true,
+		server: 'https://acme-v01.api.letsencrypt.org/directory',
 	}
 });
 
