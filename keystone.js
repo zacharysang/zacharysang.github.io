@@ -42,6 +42,8 @@ keystone.init({
 	}
 });
 
+console.log(process.env.PRODUCTION);
+
 // Load your project's Models
 keystone.import('models');
 
