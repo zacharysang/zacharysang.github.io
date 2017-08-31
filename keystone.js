@@ -30,6 +30,7 @@ keystone.init({
 
 	'port': process.env.PORT || 3000,
 	'ssl port': process.env.SSL_PORT || 3001,
+	'ssl public port': 443,
 	'ssl': 'true',
 	'ssl cert': letsencryptPath + 'cert.pem',
 	'ssl key': letsencryptPath + 'privkey.pem',
