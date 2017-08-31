@@ -26,6 +26,7 @@ node_modules
 
 # configuration files
 .env
+manifest.json
 
 # Ignore .DS_Store files on OS X
 .DS_Store
