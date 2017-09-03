@@ -1,5 +1,5 @@
 # zacharysang.com
-Repo for my personal website! [link](zacharysang.com)
+Repo for my personal website! [(link)](zacharysang.com)
 
 # Purpose
 I needed a homepage for my personal website where I could display various information about myself. 
