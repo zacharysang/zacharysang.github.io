@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: Node, Git, Python, ReactJS, SQL, Front-end, Docker, Java
+percentage: 5, 5, 4, 4, 3, 3, 3, 5

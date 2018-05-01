@@ -1,0 +1,35 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: prolog-fun
+  gh_user: zacharysang
+  repo: prolog
+  img: /static/assets/img/landing/prolog.png
+  desc: >
+          A repo that I hope to fill with my tinkerings in prolog.
+          I became very interested in this language and its approach
+          to problem solving this past semester in a class about AI.
+
+- name: che-dockerfiles
+  gh_user: zacharysang
+  repo: che-dockerfiles
+  img: /static/assets/img/landing/docker.png
+  desc: >
+          Recently I have become very interested in Eclipse's che project.
+          I see their approach of separating workspace configuration and
+          tooling from code using Docker containers as incredibly powerful
+          and useful. I really wanted to help out with this effort in some way
+          so I have submitted a couple PRs that contribute to che's collection
+          of recipes (recipes are used to define workspaces in che) and have
+          also included this project here to spread the word!
+          
+
+- name: FileMigrator
+  gh_user: zacharysang
+  repo: FileMigrator
+  img: /static/assets/img/landing/python.png
+  desc: >
+          A python utility I made over christmas break to allow me to
+          interactively copy files from one system to another by
+          selecting extensions I was interested in keeping (Eg: keep .img
+          and .docx files, but leave behind .metadata or .exe files)

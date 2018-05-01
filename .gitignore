@@ -1,4 +1,9 @@
+# ignore files that have generated content
+vendor
 _site
+
+# ignore metadata files
 .sass-cache
 .jekyll-metadata
 .bundle
+

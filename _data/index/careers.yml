@@ -1,0 +1,78 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: US Bank
+  date:
+    detail: Spring and Fall 2017
+  job:
+    detail: Java Developer Intern
+  desc:
+    detail: >
+              In the spring and fall semesters of 2017, I worked for US Bank for a
+              total of eight months. During this time I worked on a team
+              that employed the agile methodology to help improve and maintain
+              US Bank's business-banking web application, Singlepoint.
+              This involved working with HTML and CSS on the frontend, and
+              a J2EE based backend that interfaced with a DB2 (SQL) database.
+              This experience was incredibly valuable for me not only in
+              furthering my technical experience, but mainly for me to
+              learn about best professional practices when working on a
+              large scale project alongside dozens of other developers.
+  icon: fa-plus-square
+
+- name:
+    detail: Bridgeable
+  date:
+    detail: Summer 2017
+  job:
+    detail: Web Developer Intern
+  desc:
+    detail: > 
+              While working with Bridgeable, a small startup based in 
+              Cincinnati, my duty was to be a flexible 
+              and versatile front-end developer who would implement
+              the website's mockups and designs, while also giving critical
+              feedback and advice about what would be most valuable
+              from a technical standpoint. My role as an intern was to
+              begin development on the Bridgeable website (bridgeable.org)
+              and to introduce GScript as a tool to more efficiently manage
+              portions of Bridgeable's data.
+  icon: fa-plus-square
+  
+- name:
+    detail: Siemens PLM Software
+  date:
+    detail: Fall 2015 and Summer 2016
+  job:
+    detail: Java Developer Intern
+  desc:
+    detail: > 
+              My first work experiences under the co-op program here at
+              the University of Cincinnati were as a Java Developer at Siemens
+              PLM Software. As a part of this experience, I worked on a testing
+              harness to be used by testers on the QA team to write automated
+              tests. This project involved studying existing test cases and then
+              using Cucumber to provide testers with a near-english language
+              for writing tests. We then worked to allow these tests to be
+              executed in a browser without user intervention using Selenium.
+  icon: fa-plus-square
+  
+- name:
+    detail: Trust Lab Research Team
+  date:
+    detail: Spring 2016
+  job:
+    detail: Java Developer Intern
+  desc:
+    detail: > 
+              After following up on a professor's posting
+              about helping with a research project, me and a peer
+              were given the task of building a utility in Python that
+              would allow my professor to easily pull and study Github
+              repositories. By iteratively learning about his use cases
+              and implementing functionality, over the semester, we were
+              able to produce a program that would output a summary of the
+              data corresponding to the specified set of commits.
+              Additionally, this utility could optionally make a copy of 
+              the repo's filesystem at each commit in a specified directory.
+  icon: fa-plus-square
