@@ -3,10 +3,10 @@ Repo for my personal site to be hosted on Github pages using their Jekyll suppor
 This site is based of of the Jalpc template (found [here](https://github.com/jarrekk/Jalpc))
 
 # Get started with Codenvy!
-To jump right into a clone of the workspace I am working with, click [here](https://codenvy.io/f?id=factorynak80n13j3u94drc)! (and then run the `install-dependencies` command followed by the `run` command from the command palette :))
+To jump right into a clone of the workspace I am working with, click [here](https://codenvy.io/f?id=factorynak80n13j3u94drc)! (and then login and run the `install-dependencies` command followed by the `run` command from the command palette :))
 
 # Pre-requisites
-* bundle
+* [bundler](https://bundler.io/)
 
 # Dependencies
 * run `bundle install` to install all the project dependencies
