@@ -25,7 +25,7 @@
                 <li><a href="{{ link.website }}" target="blank"><i class="fa fa-link"></i></a></li>
                 {% endif %}
                 {% if link.email %}
-                <li><a href="mailto:{{ link.email }}"><i class="fa fa-envelope-o"></i></a></li>
+                <li><a href="mailto:{{ link.email }}"><i class="far fa-envelope"></i></a></li>
                 {% endif %}
             </ul>
         </div>
@@ -33,7 +33,7 @@
     {% endfor %}
     </div>
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+        <div class="col-lg-8 text-center m-t-lg m-b-lg">
             <p id="jalpc_site_pv"><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong></p>
         </div>
     </div>
