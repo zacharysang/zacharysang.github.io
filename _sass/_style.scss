@@ -18,6 +18,7 @@ h1 {
 
 h2 {
   font-size: 24px;
+  color: #3385FF;
 }
 
 h3 {
@@ -2092,7 +2093,7 @@ ul.clear-list:first-child {
 .vote-icon {
   text-align: center;
   font-size: 38px;
-  color: #e8e9ea;
+  color: #3385FF;
   &.active {
     color: #3385FF;
   }
@@ -2464,8 +2465,8 @@ body {
     }
   }
   section p {
-    color: #aeaeae;
-    font-size: 13px;
+    color: #676a6c;
+    font-size: 14px;
   }
   h1 {
     margin-top: 10px;
@@ -2503,7 +2504,7 @@ body {
     border-color: transparent;
     transition: all .3s ease-in-out 0s;
     .nav li a {
-      color: #fff;
+      color: #676a6c;
       font-family: 'Open Sans', helvetica, arial, sans-serif;
       font-weight: 700;
       letter-spacing: 1px;
@@ -2519,11 +2520,11 @@ body {
     .navbar-nav > {
       .active > a {
         background: 0 0;
-        color: #fff;
+        color: #676a6c;
         border-top: 6px solid #3385FF;
         &:hover {
           background: 0 0;
-          color: #fff;
+          color: #3385FF;
           border-top: 6px solid #3385FF;
         }
       }
@@ -2723,15 +2724,20 @@ body {
     }
   }
   .social-icon a {
-    background: #3385FF;
-    color: #fff;
     padding: 4px 8px;
     height: 28px;
     width: 28px;
     display: block;
     border-radius: 50px;
     &:hover {
+      background: #fff;
+      color: #676a6c;
+      transition: 0.15s;
+    }
+    &:not(hover) { 
       background: #3385FF;
+      color: #fff;
+      transition: 0.15s;
     }
   }
   .img-small {
@@ -2811,6 +2817,7 @@ body {
 .row {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
