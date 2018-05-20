@@ -1,6 +1,28 @@
 # skills section data
-
 label: Ability
 id : cs
-aspects: Java, Git, Python, ReactJS, SQL, Front-end, Docker, NodeJS
-percentage: 5, 5, 4, 4, 3, 3, 3, 5
+skills:
+  - name: Java
+    points: 5
+    icon: fab fa-java
+  - name: Git
+    points: 5
+    icon: fas fa-code-branch
+  - name: Python
+    points: 4
+    icon: fab fa-python
+  - name: ReactJS
+    points: 4
+    icon: fab fa-react
+  - name: SQL
+    points: 3
+    icon: fas fa-database
+  - name: Front-end
+    points: 3
+    icon: fab fa-black-tie
+  - name: Docker
+    points: 3
+    icon: fab fa-docker
+  - name: NodeJS
+    points: 5
+    icon: fab fa-node-js

@@ -5,14 +5,28 @@
             <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
         </div>
     </div>
-    <div class="row features-block">
+    <div class="row" id="skill-list">
+        {% for skill in site.data.index.skills.skills %}
+          <div class="skill-list-item">
+            <i class="{{ skill.icon }}"></i> - {{ skill.name }}</li>
+          </div>
+        {% endfor %}
+    </div>
+    <div class="row features-block" id="skill-chart">
         <div class="wow zoomIn col-lg-6">
             <canvas id="{{ site.data.index.skills.id }}" height="500" width="500"></canvas>
         </div>
         <script>
+        var aspects = [];
+        var percentages = [];
+        {% for skill in site.data.index.skills.skills %}
+            aspects.push("{{ skill.name }}");
+            percentages.push("{{skill.points}}");
+        {% endfor %}
+        
         var ctx = document.getElementById("{{ site.data.index.skills.id }}");
         var data = {
-            labels: "{{ site.data.index.skills.aspects }}".split(","),
+            labels: aspects,
             datasets: [{
                 label: "{{ site.data.index.skills.label }}",
                 backgroundColor: "rgba(179,181,198,0.2)",
@@ -21,7 +35,7 @@
                 pointBorderColor: "#fff",
                 pointHoverBackgroundColor: "#3385FF",
                 pointHoverBorderColor: "#3385FF",
-                data: [{{ site.data.index.skills.percentage }}]
+                data: percentages
                 }]
         };
         var myRadarChart = new Chart(ctx, {
