@@ -311,10 +311,131 @@ body.canvas-menu .nav-header {
   font-size: 14px;
 }
 
+// mobile-specific rules
 @media (max-width: 768px) {
+  .menu-visible-lg, .menu-visible-md {
+    display: block !important;
+  }
+    
+  .vertical-timeline-content {
+    h2 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 13px;
+    }
+  }  
+    
+  #page-wrapper {
+    position: inherit;
+    margin: 0 0 0 240px;
+    min-height: 2002px;
+  }
+    
+  .landing-page {
+    .navbar-wrapper {
+      margin-top: 20px;
+      .container {
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+      .navbar {
+        padding-right: 0;
+        padding-left: 0;
+        border-radius: 4px;
+      }
+    }
+    .carousel-caption p {
+      margin-bottom: 20px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+  }
+    
+  .landing-page {
+    .carousel-caption {
+      left: 5%;
+      top: 80px;
+      &.blank {
+        left: 5%;
+        top: 80px;
+      }
+      h1 {
+        font-size: 28px;
+      }
+    }
+    .navbar.navbar-scroll .navbar-brand {
+      margin-top: 6px;
+    }
+    .navbar-default {
+      background-color: #fff;
+      border-color: #fff;
+      padding: 15px 0;
+      .navbar-nav > .active > a:focus {
+        background: 0 0;
+        color: inherit;
+      }
+      .nav li a {
+        color: #676a6c;
+        &:hover {
+          color: #3385FF;
+        }
+      }
+    }
+    .navbar-wrapper .navbar {
+      padding-top: 0;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #e7eaec;
+      border-radius: 0;
+    }
+    .nav > li > a {
+      padding: 25px 10px 15px;
+    }
+    .navbar-nav > li > a {
+      padding: 20px 10px;
+    }
+    .navbar .navbar-brand {
+      margin-top: 6px;
+      border-radius: 5px;
+      font-size: 12px;
+      padding: 10px;
+      height: auto;
+    }
+    .navbar-wrapper .navbar {
+      padding-left: 15px;
+      padding-right: 5px;
+    }
+    .navbar-default .navbar-nav > .active > a {
+      color: inherit;
+      &:hover {
+        color: inherit;
+      }
+    }
+    .carousel-control {
+      display: none;
+    }
+    .navbar .navbar-header {
+      display: block;
+      float: none;
+      .navbar-toggle {
+        background-color: #fff;
+        padding: 9px 10px;
+        border: none;
+      }
+    }
+  }
+    
   .top-navigation .navbar-header {
     display: block;
     float: none;
+  }
+  
+  #skill-list {
+      display: block;
+  }
+  
+  #skill-chart {
+    display: none;
   }
 }
 
@@ -330,12 +451,6 @@ body.canvas-menu .nav-header {
 
 @media (min-width: 992px) {
   .menu-visible-md {
-    display: block !important;
-  }
-}
-
-@media (max-width: 767px) {
-  .menu-visible-lg, .menu-visible-md {
     display: block !important;
   }
 }
@@ -1158,17 +1273,6 @@ label.error {
   border-right: 7px solid #fff;
 }
 
-@media only screen and (min-width: 768px) {
-  .vertical-timeline-content {
-    h2 {
-      font-size: 18px;
-    }
-    p {
-      font-size: 13px;
-    }
-  }
-}
-
 @media only screen and (min-width: 1170px) {
   .center-orientation {
     .vertical-timeline-content {
@@ -1265,14 +1369,6 @@ a {
   padding: 0 15px;
   min-height: 568px;
   position: relative !important;
-}
-
-@media (min-width: 768px) {
-  #page-wrapper {
-    position: inherit;
-    margin: 0 0 0 240px;
-    min-height: 2002px;
-  }
 }
 
 .ibox-content {
@@ -2493,7 +2589,6 @@ body {
     }
   }
   .navbar.navbar-scroll .navbar-brand {
-    margin-top: 15px;
     border-radius: 5px;
     font-size: 12px;
     padding: 10px;
@@ -2654,7 +2749,6 @@ body {
     background-image: url(../assets/img/landing/avatar_all.png);
   }
   .contact {
-    background-image: url(../assets/img/landing/word_map.png);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     margin-top: 60px;
@@ -2708,110 +2802,37 @@ body {
   }
 }
 
-@media (min-width: 768px) {
-  .landing-page {
-    .navbar-wrapper {
-      margin-top: 20px;
-      .container {
-        padding-right: 15px;
-        padding-left: 15px;
-      }
-      .navbar {
-        padding-right: 0;
-        padding-left: 0;
-        border-radius: 4px;
-      }
-    }
-    .carousel-caption p {
-      margin-bottom: 20px;
-      font-size: 14px;
-      line-height: 1.4;
-    }
-  }
-}
-
 @media (max-width: 992px) {
   .landing-page .carousel-image {
     display: none;
   }
 }
 
-@media (max-width: 768px) {
-  .landing-page {
-    .carousel-caption {
-      left: 5%;
-      top: 80px;
-      &.blank {
-        left: 5%;
-        top: 80px;
-      }
-      h1 {
-        font-size: 28px;
-      }
-    }
-    .navbar.navbar-scroll .navbar-brand {
-      margin-top: 6px;
-    }
-    .navbar-default {
-      background-color: #fff;
-      border-color: #fff;
-      padding: 15px 0;
-      .navbar-nav > .active > a:focus {
-        background: 0 0;
-        color: inherit;
-      }
-      .nav li a {
-        color: #676a6c;
-        &:hover {
-          color: #3385FF;
-        }
-      }
-    }
-    .navbar-wrapper .navbar {
-      padding-top: 0;
-      padding-bottom: 5px;
-      border-bottom: 1px solid #e7eaec;
-      border-radius: 0;
-    }
-    .nav > li > a {
-      padding: 25px 10px 15px;
-    }
-    .navbar-nav > li > a {
-      padding: 20px 10px;
-    }
-    .navbar .navbar-brand {
-      margin-top: 6px;
-      border-radius: 5px;
-      font-size: 12px;
-      padding: 10px;
-      height: auto;
-    }
-    .navbar-wrapper .navbar {
-      padding-left: 15px;
-      padding-right: 5px;
-    }
-    .navbar-default .navbar-nav > .active > a {
-      color: inherit;
-      &:hover {
-        color: inherit;
-      }
-    }
-    .carousel-control {
-      display: none;
-    }
-    .navbar .navbar-header {
-      display: block;
-      float: none;
-      .navbar-toggle {
-        background-color: #fff;
-        padding: 9px 10px;
-        border: none;
-      }
-    }
-  }
-}
-
 .row {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#skill-list {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    
+    .skill-list-item {
+      padding: 15px;
+      font-size: 16pt;
+    }
+    
+    .skill-list-item:not(:last-child) {
+        border-bottom: 1px solid black;
+    }
+    
+}
+
+@media (min-width: 768px) {
+  #skill-list {
+    display: none;
+  }   
 }
