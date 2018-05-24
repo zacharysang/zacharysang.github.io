@@ -2842,10 +2842,16 @@ body {
     .skill-list-item {
       padding: 15px;
       font-size: 16pt;
+      color: $text-color-2;
+      
+      i {
+          color: $text-color-3;
+      }
+      
     }
     
     .skill-list-item:not(:last-child) {
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid $text-color-1;
     }
     
 }
