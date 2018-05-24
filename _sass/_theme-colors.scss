@@ -1,10 +1,16 @@
-$text-color-1: #5B3000;
-$text-color-2: blue;
+$text-color-1: #fff;
+$text-color-2: #000;
 $text-color-3: #000;
 
-$background-color-1: #694A38;
-$background-color-2: #F7C277;
-$background-color-3: #F7FFF7;
+$background-color-1: #846A5C;
+$background-color-2: #DCC48E;
+$background-color-3: white;
 
 $warning-color: #f8ac59;
 $error-color: #ed5565;
+
+// rules
+/*
+background-color-2 must contrast font-color-2
+ 
+*/

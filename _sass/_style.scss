@@ -810,7 +810,8 @@ button.dim:active:before {
 }
 
 .img-circle {
-  border-radius: 50%;
+  border-radius: 20%;
+  background-color: $background-color-3;
 }
 
 .btn-circle {
@@ -2825,6 +2826,7 @@ body {
 .row {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #skill-list {
