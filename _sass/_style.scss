@@ -2438,7 +2438,7 @@ body {
         border-top: 6px solid $background-color-3;
         &:hover {
           background: 0 0;
-          color: $text-color-3;
+          color: $text-color-1;
           border-top: 6px solid $background-color-3;
         }
       }
@@ -2455,7 +2455,7 @@ body {
     }
     &.navbar-scroll .navbar-nav > .active > a:focus {
       background: 0 0;
-      color: inherit;
+      color: $text-color-1;
     }
     .navbar-brand {
       &:focus, &:hover {
@@ -2474,7 +2474,7 @@ body {
     }
   }
   .navbar-scroll.navbar-default .nav li a {
-    color: $text-color-2;
+    color: $text-color-3;
     &:hover {
       color: $text-color-1;
     }
