@@ -1442,7 +1442,7 @@ code {
 
 .navy-bg {
   background-color: $background-color-3;
-  color: $text-color-3;
+  color: $text-color-4;
 }
 
 .panel-primary {
@@ -2006,9 +2006,12 @@ ul.clear-list:first-child {
 
 .vote-icon {
   text-align: center;
-  font-size: 38px;
-  color: $text-color-2;
+  font-size: 72px;
+  color: $text-color-1;
+  opacity: 0.7;
   &.active {
+    font-size: 72px;
+    transition: 0.2s;
     color: $text-color-1;
   }
 }
@@ -2642,13 +2645,11 @@ body {
     background: $background-color-3;
     color: $text-color-2;
     padding: 4px 8px;
-    height: 28px;
-    width: 28px;
     display: block;
     border-radius: 50px;
     &:hover {
-      background: $background-color-2;
-      color: $text-color-1
+      background: $text-color-2;
+      color: $text-color-4;
     }
   }
   .img-small {

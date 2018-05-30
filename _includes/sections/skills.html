@@ -24,17 +24,19 @@
             percentages.push("{{skill.points}}");
         {% endfor %}
         
+        var borderColor = "#fff";
+        var color = "#53DD6C";
         var ctx = document.getElementById("{{ site.data.index.skills.id }}");
         var data = {
             labels: aspects,
             datasets: [{
                 label: "{{ site.data.index.skills.label }}",
-                backgroundColor: "rgba(179,181,198,0.2)",
-                borderColor: "#846A5C",
-                pointBackgroundColor: "#846A5C",
-                pointBorderColor: "#846A5C",
-                pointHoverBackgroundColor: "#846A5C",
-                pointHoverBorderColor: "#846A5C",
+                backgroundColor: color + "AA",
+                borderColor: borderColor,
+                pointBackgroundColor: borderColor,
+                pointBorderColor: borderColor,
+                pointHoverBackgroundColor: borderColor,
+                pointHoverBorderColor: borderColor,
                 data: percentages
                 }]
         };
@@ -44,9 +46,9 @@
             options: {
                 scale: {
                     responsive: true,
-                    ticks: {min: 0, max: 6, stepSize: 1},
+                    ticks: {display: false, min: 0, max: 6, stepSize: 1, color: "blue"},
                     lineArc: false,
-                    pointLabels: {fontSize: 18},
+                    pointLabels: {fontSize: 16, fontColor: borderColor},
                 },
                 legend: {display: false},
             }
