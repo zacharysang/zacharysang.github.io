@@ -313,6 +313,10 @@ body.canvas-menu .nav-header {
   font-size: 14px;
 }
 
+.navbar-default.navbar button .icon-bar {
+    background-color: $text-color-4;
+}
+
 @media (max-width: 768px) {
   .top-navigation .navbar-header {
     display: block;
@@ -2007,8 +2011,12 @@ ul.clear-list:first-child {
 .vote-icon {
   text-align: center;
   font-size: 72px;
-  color: $text-color-1;
+  color: $text-color-4;
+  background-color: $text-color-1;
+  border-radius: 50%;
   opacity: 0.7;
+  width: 100px;
+  height: 100px;
   &.active {
     font-size: 72px;
     transition: 0.2s;
@@ -2413,8 +2421,8 @@ body {
   }
   .navbar-default {
     &.navbar-scroll {
-      background-color: $background-color-2;
-      border-color: $background-color-2;
+      background-color: rgba($background-color-2, 0.6);
+      border-color: rgba($background-color-2, 1);
       padding: 15px 0;
     }
     background-color: transparent;
@@ -2846,13 +2854,13 @@ body {
       color: $text-color-2;
       
       i {
-          color: $text-color-3;
+          color: $text-color-4;
       }
       
     }
     
     .skill-list-item:not(:last-child) {
-        border-bottom: 1px solid $text-color-1;
+        border-bottom: 1px solid $text-color-;
     }
     
 }
