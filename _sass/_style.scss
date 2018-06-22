@@ -2651,14 +2651,15 @@ body {
     }
   }
   .social-icon a {
-    background: $background-color-3;
-    color: $text-color-2;
+    background: darken($text-color-4, 10%);
+    color: $background-color-3;
     padding: 4px 8px;
     display: block;
     border-radius: 50px;
     &:hover {
-      background: $text-color-2;
+      background: $background-color-3;
       color: $text-color-4;
+      transition: 0.15s;
     }
   }
   .img-small {
