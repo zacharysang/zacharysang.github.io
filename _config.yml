@@ -5,8 +5,7 @@ title: Zachary Sang
 description: A place for musings of Zak
 keywords: developer, software, code, blog,Jekyll,github
 baseurl: '' # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-#url: https://zacharysang.github.io/zacharysang.com  # url should be 'http://<github_username>.github.io/homepage' as before
-url: http://zak-pc.ddns.net:34001
+url: https://zacharysang.com
 img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
