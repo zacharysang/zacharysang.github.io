@@ -12,30 +12,21 @@ permalink: /blog/
 </div>
 
 <div class="row">
-    <div class="col-lg-8 col-lg-offset-2">
+    <div class="col-lg-8">
         <div class="wrapper wrapper-content animated fadeInRight">
             <!-- latest 10 blog -->
-			{% for post in site.posts limit:10 %}
-            <div class="vote-item">
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="vote-actions">
-                        </div>
-                        <a href="{{ post.url | prepend: site.baseurl }}" class="vote-title">
-                            {{ post.title }}
-                        </a>
-                        <div class="vote-info">
-                            <i class="fa fa-clock-o"></i> <a>{{ post.date | date: "%-d %b %Y" }}</a>
-                            <i class="fa fa-user"></i> <a>{{ site.author.name }}</a>
-                        </div>
-                    </div>
-                    <div class="col-md-2 ">
-                        <div class="vote-icon">
-                            {% if post.icon %}<i class="fa {{ post.icon }}"> </i>{% endif %}
-                        </div>
-                    </div>
-                </div>
-            </div>
+			{% for post in site.data.blog.posts limit:10 %}
+			  <a class="postContainer" href={{post.url}}>
+			     <img class="postImage" src={{post.img}}/>
+			     <div class="postInfo">
+			       <div class="postTitle">
+			         {{post.title}}
+			       </div>
+			       <div class="postDesc">
+			         {{post.desc}}
+			       </div>
+			     </div>
+			  </a>
             {% endfor %}
         </div>
     </div>

@@ -1,22 +1,13 @@
-# blog page sections
-- name: Blog
-  href: /blog/
-
-# edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
-- name: Python
-  href: /python/
-
-- name: Linux
-  href: /linux/
-
-- name: HTML
-  href: /html/
-
-- name: Database
-  href: /database/
-
-- name: Mac
-  href: /mac/
-
-- name: Life
-  href: /life/
+posts:
+  - url: https://medium.com/rantt/heres-how-the-mueller-investigation-compares-to-past-probes-9805f4bdb2e4
+    title: Here's How the Mueller Investigation Compares to Past Probes
+    img: https://cdn-images-1.medium.com/max/200/0*XOqrMpCcRIZAMCMR
+    desc: a test post
+  - url: https://medium.com/rantt/heres-how-the-mueller-investigation-compares-to-past-probes-9805f4bdb2e4
+    title: Here's How the Mueller Investigation Compares to Past Probes
+    img: https://cdn-images-1.medium.com/max/200/0*XOqrMpCcRIZAMCMR
+    desc: a test post
+  - url: https://medium.com/rantt/heres-how-the-mueller-investigation-compares-to-past-probes-9805f4bdb2e4
+    title: Here's How the Mueller Investigation Compares to Past Probes
+    img: https://cdn-images-1.medium.com/max/200/0*XOqrMpCcRIZAMCMR
+    desc: a test post

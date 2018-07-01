@@ -1,0 +1,42 @@
+@import "theme-colors";
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postContainer {
+    width: 90%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #228b22f6;
+    color: $text-color-2;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    
+    &:hover{
+        background-color: #228b22;
+    }
+    
+    .postTitle {
+        font-size: 22px;
+        display: inline-block;
+    }
+
+    .postImage {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        object-fit: cover;
+    }
+    
+    .postInfo {
+        width: 50%;
+    }
+    
+}
