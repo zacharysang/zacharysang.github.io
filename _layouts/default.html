@@ -19,11 +19,7 @@ layout: compress
 
     {{ content }}
 
-    {% if page.title != 'index' %}
-        {% include foot.html %}
-    {% else %}
-        {% include index_foot.html %}
-    {% endif %}
-
+    <!-- footer content was just this so I flattened it and included it here -->
+    {% include analytics.html %}
 </body>
 </html>
