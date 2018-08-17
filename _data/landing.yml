@@ -31,11 +31,11 @@
 #  page: blog/
 #  css: testimonials navy-section
 
-#- id: resume
-#  i18n: nav.resume
-#  name: Resume
-#  tpl: resume.html
-#  css: resume
+- id: resume
+  i18n: nav.resume
+  name: Resume
+  tpl: resume.html
+  css: resume
 
 - id: connect
   i18n: nav.link

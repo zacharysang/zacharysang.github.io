@@ -610,7 +610,7 @@ button.dim {
 
 .btn-link {
   color: inherit;
-  &.active, &:active, &:focus, &:hover {
+  &.active, &:active, &:focus, &:hover, &:visited {
     color: $text-color-1;
     text-decoration: none;
   }
