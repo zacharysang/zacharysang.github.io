@@ -27,13 +27,12 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fab fa-node-js
   desc: >
-          Welcome! My name is Zachary Sang and I am a learner, a developer,
-          and a hackathon-goer. My interests include listening to
+          Welcome! My name is Zachary Sang and I am a learner, a tinkerer, 
+          and a developer. My interests include listening to
           music, reading webcomics, building things, and learning about
-          how things are built! (sometimes in that order) This site is
-          something I've put up to
-          display things I've built and to share some of the experiences
-          I have gained along the way. I hope you enjoy your visit! :)
+          how things are built! This site is something I've put up to
+          display things I've made and to share some of the experiences
+          I've gained along the way. I hope you enjoy your visit! :)
 
 # comment
 #disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.

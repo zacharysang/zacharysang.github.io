@@ -1,6 +1,25 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: Amazon
+  date:
+    detail: Summer 2018
+  job:
+    detail: Software Development Engineering Intern
+  icon: fa-plus-square
+  desc:
+    detail: >
+              Over this summer, I interned at Amazon in Pittsburgh.
+              I worked with a team who owned services that helped other 
+              parts of Amazon create and manage promotions and discounts. 
+              My project was to revamp a web-application used by our team 
+              to modify promotions on behalf of other groups in Amazon.
+              This was an exciting experience for me as I learned more about working 
+              within legacy projects, and also about planning new development efforts.
+              I was able to complete a refactor of the application's backend, and also build 
+              a new React app that would replace a major screen for viewing and editing promotions.
+
+- name:
     detail: US Bank
   date:
     detail: Spring and Fall 2017
@@ -62,17 +81,17 @@
   date:
     detail: Spring 2016
   job:
-    detail: Java Developer Intern
+    detail: Team Member
   desc:
     detail: > 
-              After following up on a professor's posting
-              about helping with a research project, a peer and I
+              After following up on a professor's class announcement
+              asking for help with a research project, a peer and I
               were given the task of building a utility in Python that
               would allow my professor to easily pull and study Github
               repositories. By iteratively learning about his use cases
-              and implementing functionality, over the semester, we were
+              and implementing functionality, over the semester we were
               able to produce a program that would output a summary of the
-              data corresponding to the specified set of commits.
-              Additionally, this utility could optionally make a copy of 
+              data corresponding to a specified set of commits.
+              Additionally, this utility could optionallyy make a copy of 
               the repo's filesystem at each commit in a specified directory.
   icon: fa-plus-square

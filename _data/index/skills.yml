@@ -5,24 +5,24 @@ skills:
   - name: Java
     points: 5
     icon: fab fa-java
-  - name: Git
-    points: 5
-    icon: fas fa-code-branch
-  - name: Python
-    points: 4
-    icon: fab fa-python
   - name: ReactJS
-    points: 4
+    points: 5
     icon: fab fa-react
-  - name: SQL
+  - name: NodeJS
+    points: 4
+    icon: fab fa-node-js
+  - name: Python
     points: 3
+    icon: fab fa-python
+  - name: SQL
+    points: 2
     icon: fas fa-database
   - name: Front-end
     points: 3
     icon: fab fa-black-tie
   - name: Docker
-    points: 3
+    points: 4
     icon: fab fa-docker
-  - name: NodeJS
+  - name: Git
     points: 5
-    icon: fab fa-node-js
+    icon: fas fa-code-branch
