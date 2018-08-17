@@ -31,8 +31,14 @@
 #  page: blog/
 #  css: testimonials navy-section
 
-- id: links
+#- id: resume
+#  i18n: nav.resume
+#  name: Resume
+#  tpl: resume.html
+#  css: resume
+
+- id: connect
   i18n: nav.link
-  name: Links
-  tpl: links.html
+  name: Connect
+  tpl: connect.html
   css: contact

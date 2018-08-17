@@ -1,5 +1,5 @@
 # ignore files that have generated content
-vendor
+dependencies
 _site
 
 # ignore metadata files

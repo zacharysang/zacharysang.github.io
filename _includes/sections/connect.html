@@ -2,11 +2,11 @@
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
-            <h1><span data-i18n="link.link">Link</span></h1>
+            <h1><span data-i18n="link.link">Connect</span></h1>
         </div>
     </div>
     <div class="row">
-    {% for link in site.data.index.links %}
+    {% for link in site.data.index.connect %}
         {% assign loopindex = forloop.index | modulo: 3 %}
         {% if forloop.last %}
             {% if forloop.last == forloop.first %}
