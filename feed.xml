@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>zak site</title>
-    <link href="https://github.com/zacharysang/zacharysang.github.io/feed.xml" rel="self" />
-    <link href="https://github.com/zacharysang/zacharysang.github.io" />
+    <link href="https://zacharysang.github.io/feed.xml" rel="self" />
+    <link href="https://zacharysang.github.io" />
     <updated>1969-12-31T16:00:00-08:00</updated>
     <author>
         <name>zak</name>
     </author>
-    <id>https://github.com/zacharysang/zacharysang.github.io</id>
+    <id>https://zacharysang.github.io</id>
 
 </feed>
