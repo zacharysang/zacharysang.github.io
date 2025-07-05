@@ -1,9 +1,0 @@
-# ignore files that have generated content
-dependencies
-_site
-
-# ignore metadata files
-.sass-cache
-.jekyll-metadata
-.bundle
-
