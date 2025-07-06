@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://zacharysang.com/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://zacharysang.com/</loc>
+</url>
+<url>
+<loc>https://zacharysang.com/factoids/</loc>
+<lastmod>2025-07-05T15:05:47-07:00</lastmod>
+</url>
+<url>
+<loc>https://zacharysang.com/on-building/</loc>
+<lastmod>2025-07-05T14:54:17-07:00</lastmod>
+</url>
+<url>
+<loc>https://zacharysang.com/on-communicating/</loc>
+<lastmod>2025-07-05T15:01:26-07:00</lastmod>
+</url>
+<url>
+<loc>https://zacharysang.com/on-materialism-vs-idealism/</loc>
+<lastmod>2025-07-05T14:57:21-07:00</lastmod>
+</url>
+<url>
+<loc>https://zacharysang.com/on-organizing/</loc>
+<lastmod>2025-07-05T14:26:28-07:00</lastmod>
+</url>
+</urlset>
